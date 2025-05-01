@@ -12,4 +12,17 @@
   background-color: #efefef;}
 
 
+#footer {
+    border: solid 1px;
+            padding: 10px;
+            margin: 10px 0 0 0; /* corrected margin */
+            background-color: #efefef;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            box-sizing: border-box;}
+
+
   
