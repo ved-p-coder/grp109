@@ -12,7 +12,8 @@
   background-color: #efefef;}
 
 body {
-  padding-top: 80px;}
+  padding-top: 80px;
+  margin: 0;}
 
 #container {
   max-width: 960px;
