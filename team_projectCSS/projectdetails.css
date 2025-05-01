@@ -1,1 +1,42 @@
 
+#title {
+  position: fixed;
+  top:0px;
+  left:0px; 
+  padding:10px;
+  margin:0px;
+  width:100%;
+  text-align: center;
+  z-index:10;
+  font-size: 36px;
+  display: block;
+  background-color: #efefef;}
+
+body {
+  padding-top: 80px;
+  margin: 0;}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;}
+
+
+
+#footer {
+    border: solid 1px;
+            padding: 10px;
+            margin: 10px 0 0 0; /* corrected margin */
+            background-color: #efefef;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            box-sizing: border-box;}
+
+
+  
+
