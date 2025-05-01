@@ -11,6 +11,9 @@
   dislplay: block;
   background-color: #efefef;}
 
+#title span {
+  font-size: 25px;}
+
 
 #footer {
     border: solid 1px;
