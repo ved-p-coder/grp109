@@ -9,7 +9,7 @@ body {
 
 .ben-log {
   background-color: cornflowerblue;
-  background-image: url('images/japan.jpg');
+  background-image: url('../images/japan.jpg');
   background-size: cover;
   background-position: center;
   padding: 5px;
