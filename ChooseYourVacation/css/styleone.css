@@ -1,1 +1,29 @@
+header {
+    background-color: #0000FF;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
 
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #1a2530;
+}
