@@ -1,1 +1,29 @@
+body {
+  font-family: WorkSansRegular;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+.validations {
+  border: 2px dashed;
+  padding: 15px;
+}
+
+#iteration1 {
+  background-color: lightblue;
+}
+
+.html-results {
+  background-color: lightgreen;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.css-results {
+  background-color: plum;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 
