@@ -1,12 +1,12 @@
+body {
+  font-family: WorkSansRegular;
+}
+
 header {
     background-color: #0000FF;
     color: white;
     padding: 1rem 0;
     text-align: center;
-}
-
-body {
-  font-family: WorkSansRegular;
 }
 
 .iteration {
