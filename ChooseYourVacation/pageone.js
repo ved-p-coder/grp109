@@ -108,11 +108,11 @@ function showIstanbulAttractions() {
         {name: "3. Kariye Mosque", description: "This mosque is renowned worldwide for its well-preserved mosaics and frescoes. When you visit you will see beautiful expamples of East Roman paintings in its last period.", image: "images/KaryieMosque.jpg"}, 
         {name: "4. Basilica Cistern", description: "This ancient underground reservoir holds 336 columns and haunting medusa heads. It offers a eerie yet beautiful escape into Byzantine history.", image: "images/basilicaCistern.jpeg"},
         {name: "5. Grand Bazaar", description: "This attraction is the oldest covered market in the world. If you are one for shopping, this is the place for you. Some goods sold include jewelry, textiles, clothing, leather goods, ceramics, and souvinirs.", image: "images/grandBazaar.jpeg"},
-        {name: "6. Aya Sofya Tombs", description: " ", image: ""},
-        {name: "7. Atatürk Arboretum", description: "", image: ""},
-        {name: "8. Eyüp Sultan Mosque", description: "", image: ""},
-        {name: "9. Galata Tower", description: "", image: ""},
-        {name: "10. All Saints Moda Church", description: "", image: ""}
+        {name: "6. Aya Sofya Tombs", description: "These tombs are the final resting places of five 16th- and 17th-century sultans. The stunning architecture of the dome shape shows how groundbreaking engineering was at the time. It is a symbol of cultrual exchange.", image: ""},
+        {name: "7. Atatürk Arboretum", description: "This arboretum offers an escape from the city. It can offer scenic landscapes, plant collections, and educational opportunities. If you are a nature lover this is the spot for you. ", image: ""},
+        {name: "8. Eyüp Sultan Mosque", description: "It's a popular pilgrimage destination for Muslims and a place of worship for locals, though less frequented by international tourists.", image: ""},
+        {name: "9. Galata Tower", description: "Visiting provides a chance to experience Istanbul's rich history and enjoy breathtaking panoramic views", image: ""},
+        {name: "10. All Saints Moda Church", description: "This church is a unique place to visit due to its historical significance, architectural beauty, and welcoming atmosphere", image: ""}
     ];
 createAttractionElements(container, "Istanbul", attractions);
 }
