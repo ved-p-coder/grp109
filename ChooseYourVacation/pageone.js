@@ -112,7 +112,7 @@ function showIstanbulAttractions() {
         {name: "7. Atatürk Arboretum", description: "This arboretum offers an escape from the city. It can offer scenic landscapes, plant collections, and educational opportunities. If you are a nature lover this is the spot for you. ", image: "images/istanbul/AtaturkAboretum.jpg"},
         {name: "8. Eyüp Sultan Mosque", description: "It's a popular pilgrimage destination for Muslims and a place of worship for locals, though less frequented by international tourists.", image: "images/istanbul/yupSultanMosque.jpeg"},
         {name: "9. Galata Tower", description: "Visiting provides a chance to experience Istanbul's rich history and enjoy breathtaking panoramic views", image: "images/istanbul/galataTower.avif"},
-        {name: "10. All Saints Moda Church", description: "This church is a unique place to visit due to its historical significance, architectural beauty, and welcoming atmosphere", image: "images/istanbul/AllSaintsModaChurch.jpg"}
+        {name: "10. All Saints Moda Church", description: "This church is a unique place to visit due to its historical significance, architectural beauty, and welcoming atmosphere", image: "images/istanbul/AllSaintsModaChurch.jpeg"}
     ];
 createAttractionElements(container, "Istanbul", attractions);
 }
