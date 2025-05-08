@@ -41,6 +41,10 @@ nav ul li a:hover, nav ul li a.active {
     background-color: #1a2530;
 }
 
+main {
+    margin-bottom: 80px;
+}
+
 #footer {
     border: solid 1px;
     padding: 10px;
