@@ -70,7 +70,17 @@ nav ul li a:hover, nav ul li a.active {
   margin-left: 4px;
   margin-right: 4px;
 }
-  
+
+.will-log {
+  background-color: yellow;
+  background-size: cover;
+  background-position: cover;
+  padding: 5px;
+  border: 1px solid,
+  margin-bottom: 10px,
+  margin-left: 4px;
+  margin-right: 4px;
+}
 #footer {
     border: solid 1px;
     padding: 10px;
