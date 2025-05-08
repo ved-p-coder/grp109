@@ -116,3 +116,37 @@ function showIstanbulAttractions() {
     ];
 createAttractionElements(container, "Istanbul", attractions);
 }
+
+function showLondonAttractions() {
+    const container = document.getElementById("attractions-container");
+    const attractions = [
+        { name: "1. Tower of London", description: "A historic castle on the north bank of the River Thames, known for housing the Crown Jewels and its fascinating history.", image: "" },
+        { name: "2. British Museum", description: "A public institution dedicated to human history, art, and culture, with a collection of over 8 million works.", image: "" },
+        { name: "3. Buckingham Palace", description: "The London residence and administrative headquarters of the monarch of the United Kingdom, known for the Changing of the Guard ceremony.", image: "" },
+        { name: "4. London Eye", description: "A giant Ferris wheel offering breathtaking views of the city from its glass capsules.", image: "" },
+        { name: "5. Westminster Abbey", description: "A Gothic abbey church that has been the traditional place of coronation and burial for English and British monarchs.", image: "" },
+        { name: "6. Big Ben & Houses of Parliament", description: "The iconic clock tower and the meeting place of the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom.", image: "" },
+        { name: "7. Tate Modern", description: "Britain's national gallery of international modern art, housed in the former Bankside Power Station.", image: "" },
+        { name: "8. Natural History Museum", description: "A museum exhibiting a vast range of specimens from various segments of natural history, housed in a Romanesque building.", image: "" },
+        { name: "9. Hyde Park", description: "One of the largest parks in London, famous for Speakers' Corner and the Serpentine lake.", image: "" },
+        { name: "10. Tower Bridge", description: "A combined bascule and suspension bridge crossing the River Thames, known for its Victorian Gothic style.", image: "" }
+    ];
+    createAttractionElements(container, "London", attractions);
+}
+
+function showHongKongAttractions() {
+    const container = document.getElementById("attractions-container");
+    const attractions = [
+        { name: "1. Victoria Peak", description: "The highest hill on Hong Kong Island, offering stunning views of the city skyline, Victoria Harbour, and surrounding islands.", image: "" },
+        { name: "2. Victoria Harbour", description: "A natural landform harbor separating Hong Kong Island and Kowloon Peninsula, known for its spectacular skyline.", image: "" },
+        { name: "3. Hong Kong Disneyland", description: "A theme park featuring classic Disney attractions and entertainment based on Disney characters and stories.", image: "" },
+        { name: "4. Tian Tan Buddha (Big Buddha)", description: "A large bronze statue of Buddha Shakyamuni, located near Po Lin Monastery on Lantau Island.", image: "" },
+        { name: "5. Temple Street Night Market", description: "A bustling night market known for its street food, trinkets, and fortune tellers.", image: "" },
+        { name: "6. Star Ferry", description: "A passenger ferry service operating across Victoria Harbour, offering iconic views of the Hong Kong skyline.", image: "" },
+        { name: "7. Wong Tai Sin Temple", description: "A famous shrine and popular tourist attraction, known for its beautiful architecture and fortune-telling services.", image: "" },
+        { name: "8. Ocean Park", description: "A marine mammal park, oceanarium, animal theme park, and amusement park featuring animal exhibits and thrilling rides.", image: "" },
+        { name: "9. Lan Kwai Fong", description: "A popular nightlife district with numerous bars, restaurants, and clubs.", image: "" },
+        { name: "10. Ngong Ping 360", description: "A cable car system offering spectacular views of the mountains, South China Sea, and Hong Kong International Airport.", image: "" }
+    ];
+    createAttractionElements(container, "Hong Kong", attractions);
+}
