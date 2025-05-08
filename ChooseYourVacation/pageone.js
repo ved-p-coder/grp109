@@ -93,6 +93,7 @@ function showNewYorkAttractions() {
         { name: "5. Brooklyn Bridge", description: "", image: "" },
         { name: "6. Fifth Avenue", description: "", image: "" },
         { name: "7. Metropolitan Museum of Art", description: "", image: "" },
+        { name: "8. Broadway", description: "", image: "" },
         { name: "9. 9/11 Memorial and Museum", description: "", image: "" },
         { name: "10. Rockefeller Center", description: "", image: "" }
     ];
