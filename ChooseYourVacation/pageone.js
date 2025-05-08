@@ -86,16 +86,16 @@ function showParisAttractions() {
 function showNewYorkAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
-        { name: "1. Statue of Liberty", description: "", image: "" },
-        { name: "2. Central Park", description: "", image: "" },
-        { name: "3. Times Square", description: "", image: "" },
-        { name: "4. Empire State Building", description: "", image: "" },
-        { name: "5. Brooklyn Bridge", description: "", image: "" },
-        { name: "6. Fifth Avenue", description: "", image: "" },
-        { name: "7. Metropolitan Museum of Art", description: "", image: "" },
-        { name: "8. Broadway", description: "", image: "" },
-        { name: "9. 9/11 Memorial and Museum", description: "", image: "" },
-        { name: "10. Rockefeller Center", description: "", image: "" }
+        { name: "1. Statue of Liberty", description: "A symbol of freedom and democracy, offering breathtaking views from its pedestal and crown.", image: "" },
+        { name: "2. Central Park", description: "A tranquil escape from the city’s hustle, with picturesque landscapes, lakes, and historical monuments.", image: "" },
+        { name: "3. Times Square", description: "Experience the vibrant heart of NYC with dazzling lights, entertainment, and iconic landmarks.", image: "" },
+        { name: "4. Empire State Building", description: "Stunning panoramic views of the city from the observation decks; a true NYC icon.", image: "" },
+        { name: "5. Brooklyn Bridge", description: "Walk across this historic bridge for breathtaking skyline views and photo opportunities.", image: "" },
+        { name: "6. Fifth Avenue", description: "Shop at world-renowned stores, visit St. Patrick’s Cathedral, and stroll by Rockefeller Center.", image: "" },
+        { name: "7. Metropolitan Museum of Art", description: "Dive into a world of art, from ancient artifacts to contemporary masterpieces.", image: "" },
+        { name: "8. Broadway", description: "See top-tier theatrical productions, from classic musicals to cutting-edge plays.", image: "" },
+        { name: "9. 9/11 Memorial and Museum", description: "A powerful and moving tribute to the lives lost and the city’s resilience.", image: "" },
+        { name: "10. Rockefeller Center", description: "Visit the Top of the Rock for a stunning view, go ice skating, or tour NBC Studios.", image: "" }
     ];
     createAttractionElements(container, "NewYork", attractions);
 }
