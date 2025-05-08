@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const parisButton = document.getElementById("paris");
     const londonButton = document.getElementById("london");
     const hongkongButton = document.getElementById("hongkong");
+    const istanbulButton = document.getElementById("istanbul");
 
     parisButton.addEventListener("click", function() {
         showParisAttractions();
@@ -13,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     hongkongButton.addEventListener("click", function() {
         showHongKongAttractions();
+    });
+
+    istanbulButton.addEventListener("click", function() {
+        showIstanbulAttractions();
     });
 });
 
@@ -71,4 +76,12 @@ function showParisAttractions() {
         { name: "10. Centre Pompidou", description: "A complex building in the style of high-tech architecture, housing the largest museum for modern art in Europe.", image: "" }
     ];
     createAttractionElements(container, "Paris", attractions);
+}
+
+function showIstanbulAttractions() {
+    const container = document.getElementById("attractions-container");
+    const attractions = [
+        {name: "1. Hagia Sophia Grand Mosque", description: "An architectural marvel"}
+
+creatAttractionElements(container, "istanbul", attractions);
 }
