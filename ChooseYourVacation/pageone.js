@@ -81,7 +81,11 @@ function showParisAttractions() {
 function showIstanbulAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
-        {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/hagiasophia.jpg"}
+        {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/hagiasophia.jpg"},
+        {name: "2. Topkapi Palace", description: "This place was at one point the court of the Ottoman Empire.", image: " "},
+        {name: "3. Kariye Mosque", description: " ", image: " "}, 
+        {name: "4. Basilica Cistern", description: " ", image: " "},
+        {name: "5. Grand Bazaar", description: " ", image: " "}
     ];
 createAttractionElements(container, "Istanbul", attractions);
 }
