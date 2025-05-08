@@ -104,7 +104,7 @@ function showIstanbulAttractions() {
     const attractions = [
         {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/hagiasophia.jpg"},
         {name: "2. Topkapi Palace", description: "This place was at one point the court of the Ottoman Empire. Today you will see a collection of rare books, manuscripts and much more history of what this palace once was.", image: "images/TopkapiPalace.jpg"},
-        {name: "3. Kariye Mosque", description: "This mosque is renowned worldwide for its well-preserved mosaics and frescoes. When you visit you will see beautiful expamples of East Roman paintings in its last period.", image: "images/KariyeMosque.jpg"}, 
+        {name: "3. Kariye Mosque", description: "This mosque is renowned worldwide for its well-preserved mosaics and frescoes. When you visit you will see beautiful expamples of East Roman paintings in its last period.", image: "images/KaryieMosque.jpg"}, 
         {name: "4. Basilica Cistern", description: "This ancient underground reservoir holds 336 columns and haunting medusa heads. It offers a eerie yet beautiful escape into Byzantine history.", image: "images/basilicaCistern.jpeg"},
         {name: "5. Grand Bazaar", description: "This attraction is the oldest covered market in the world. If you are one for shopping, this is the place for you. Some goods sold include jewelry, textiles, clothing, leather goods, ceramics, and souvinirs.", image: "images/grandBazaar.jpeg"}
     ];
