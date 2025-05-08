@@ -1,11 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
     const parisButton = document.getElementById("paris");
+    const newYorkButton = document.getElementById("newyork");
     const londonButton = document.getElementById("london");
     const hongkongButton = document.getElementById("hongkong");
     const istanbulButton = document.getElementById("istanbul");
 
     parisButton.addEventListener("click", function() {
         showParisAttractions();
+    });
+
+    newYorkButton.addEventListener("click", function() {
+        showNewYorkAttractions();
     });
 
     londonButton.addEventListener("click", function() {
@@ -76,6 +81,22 @@ function showParisAttractions() {
         { name: "10. Centre Pompidou", description: "A complex building in the style of high-tech architecture, housing the largest museum for modern art in Europe.", image: "" }
     ];
     createAttractionElements(container, "Paris", attractions);
+}
+
+function showNewYorkAttractions() {
+    const container = document.getElementById("attractions-container");
+    const attractions = [
+        { name: "1. Statue of Liberty", description: "", image: "" },
+        { name: "2. Central Park", description: "", image: "" },
+        { name: "3. Times Square", description: "", image: "" },
+        { name: "4. Empire State Building", description: "", image: "" },
+        { name: "5. Brooklyn Bridge", description: "", image: "" },
+        { name: "6. Fifth Avenue", description: "", image: "" },
+        { name: "7. Metropolitan Museum of Art", description: "", image: "" },
+        { name: "9. 9/11 Memorial and Museum", description: "", image: "" },
+        { name: "10. Rockefeller Center", description: "", image: "" }
+    ];
+    createAttractionElements(container, "NewYork", attractions);
 }
 
 function showIstanbulAttractions() {
