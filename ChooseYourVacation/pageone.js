@@ -120,16 +120,16 @@ createAttractionElements(container, "Istanbul", attractions);
 function showLondonAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
-        { name: "1. Tower of London", description: "A historic castle on the north bank of the River Thames, known for housing the Crown Jewels and its fascinating history.", image: "" },
-        { name: "2. British Museum", description: "A public institution dedicated to human history, art, and culture, with a collection of over 8 million works.", image: "" },
-        { name: "3. Buckingham Palace", description: "The London residence and administrative headquarters of the monarch of the United Kingdom, known for the Changing of the Guard ceremony.", image: "" },
-        { name: "4. London Eye", description: "A giant Ferris wheel offering breathtaking views of the city from its glass capsules.", image: "" },
-        { name: "5. Westminster Abbey", description: "A Gothic abbey church that has been the traditional place of coronation and burial for English and British monarchs.", image: "" },
-        { name: "6. Big Ben & Houses of Parliament", description: "The iconic clock tower and the meeting place of the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom.", image: "" },
-        { name: "7. Tate Modern", description: "Britain's national gallery of international modern art, housed in the former Bankside Power Station.", image: "" },
-        { name: "8. Natural History Museum", description: "A museum exhibiting a vast range of specimens from various segments of natural history, housed in a Romanesque building.", image: "" },
-        { name: "9. Hyde Park", description: "One of the largest parks in London, famous for Speakers' Corner and the Serpentine lake.", image: "" },
-        { name: "10. Tower Bridge", description: "A combined bascule and suspension bridge crossing the River Thames, known for its Victorian Gothic style.", image: "" }
+        { name: "1. Tower of London", description: "A historic castle on the north bank of the River Thames, known for housing the Crown Jewels and its fascinating history.", image: "images/london/Tower-London.png" },
+        { name: "2. British Museum", description: "A public institution dedicated to human history, art, and culture, with a collection of over 8 million works.", image: "images/london/British-Museum.png" },
+        { name: "3. Buckingham Palace", description: "The London residence and administrative headquarters of the monarch of the United Kingdom, known for the Changing of the Guard ceremony.", image: "images/london/Buckingham-Palace.png" },
+        { name: "4. London Eye", description: "A giant Ferris wheel offering breathtaking views of the city from its glass capsules.", image: "images/london/London-Eye.png" },
+        { name: "5. Westminster Abbey", description: "A Gothic abbey church that has been the traditional place of coronation and burial for English and British monarchs.", image: "images/london/Westminster-Abbey.png" },
+        { name: "6. Big Ben & Houses of Parliament", description: "The iconic clock tower and the meeting place of the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom.", image: "images/london/Big-Ben.png" },
+        { name: "7. Tate Modern", description: "Britain's national gallery of international modern art, housed in the former Bankside Power Station.", image: "images/london/Tate-Modern.png" },
+        { name: "8. Natural History Museum", description: "A museum exhibiting a vast range of specimens from various segments of natural history, housed in a Romanesque building.", image: "images/london/Natural-History-Museum.png" },
+        { name: "9. Hyde Park", description: "One of the largest parks in London, famous for Speakers' Corner and the Serpentine lake.", image: "images/london/Hyde-Park.png" },
+        { name: "10. Tower Bridge", description: "A combined bascule and suspension bridge crossing the River Thames, known for its Victorian Gothic style.", image: "images/london/Tower-Bridge.png" }
     ];
     createAttractionElements(container, "London", attractions);
 }
