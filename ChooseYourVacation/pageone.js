@@ -82,7 +82,7 @@ function showIstanbulAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
         {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/hagiasophia.jpg"},
-        {name: "2. Topkapi Palace", description: "This place was at one point the court of the Ottoman Empire.", image: " "},
+        {name: "2. Topkapi Palace", description: "This place was at one point the court of the Ottoman Empire. Today you will see a collection of rare books, manuscripts and much more history of what this palace once was.", image: "https://cdn-imgix.headout.com/media/images/858959378598b81dfdff32444a0c400d-harem.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&ar=16%3A9&crop=faces&fit=crop"},
         {name: "3. Kariye Mosque", description: " ", image: " "}, 
         {name: "4. Basilica Cistern", description: " ", image: " "},
         {name: "5. Grand Bazaar", description: " ", image: " "}
