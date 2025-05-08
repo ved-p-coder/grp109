@@ -50,7 +50,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .lyv-log {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRvvwhbzbP1Z-dqV8LUxorCF9849GtsBEjqg&s");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEdwW4f3pNgSTMaH5SmjTpY677D4JD7i8fyg&s");
   background-size: cover;
   background-position: cover;
   padding: 5px;
@@ -59,6 +59,7 @@ nav ul li a:hover, nav ul li a.active {
   margin-left: 4px;
   margin-right: 4px;
 }
+
   
 #footer {
     border: solid 1px;
