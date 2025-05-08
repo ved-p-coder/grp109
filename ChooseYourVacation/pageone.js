@@ -103,16 +103,16 @@ function showNewYorkAttractions() {
 function showIstanbulAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
-        {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/hagiaSophia.jpg"},
-        {name: "2. Topkapi Palace", description: "This place was at one point the court of the Ottoman Empire. Today you will see a collection of rare books, manuscripts and much more history of what this palace once was.", image: "images/TopkapiPalace.jpg"},
-        {name: "3. Kariye Mosque", description: "This mosque is renowned worldwide for its well-preserved mosaics and frescoes. When you visit you will see beautiful expamples of East Roman paintings in its last period.", image: "images/KaryieMosque.jpg"}, 
-        {name: "4. Basilica Cistern", description: "This ancient underground reservoir holds 336 columns and haunting medusa heads. It offers a eerie yet beautiful escape into Byzantine history.", image: "images/basilicaCistern.jpeg"},
-        {name: "5. Grand Bazaar", description: "This attraction is the oldest covered market in the world. If you are one for shopping, this is the place for you. Some goods sold include jewelry, textiles, clothing, leather goods, ceramics, and souvinirs.", image: "images/grandBazaar.jpeg"},
-        {name: "6. Aya Sofya Tombs", description: "These tombs are the final resting places of five 16th- and 17th-century sultans. The stunning architecture of the dome shape shows how groundbreaking engineering was at the time. It is a symbol of cultrual exchange.", image: ""},
-        {name: "7. Atatürk Arboretum", description: "This arboretum offers an escape from the city. It can offer scenic landscapes, plant collections, and educational opportunities. If you are a nature lover this is the spot for you. ", image: ""},
-        {name: "8. Eyüp Sultan Mosque", description: "It's a popular pilgrimage destination for Muslims and a place of worship for locals, though less frequented by international tourists.", image: ""},
-        {name: "9. Galata Tower", description: "Visiting provides a chance to experience Istanbul's rich history and enjoy breathtaking panoramic views", image: ""},
-        {name: "10. All Saints Moda Church", description: "This church is a unique place to visit due to its historical significance, architectural beauty, and welcoming atmosphere", image: ""}
+        {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/istanbul/hagiaSophia.jpg"},
+        {name: "2. Topkapi Palace", description: "This place was at one point the court of the Ottoman Empire. Today you will see a collection of rare books, manuscripts and much more history of what this palace once was.", image: "images/istanbul/TopkapiPalace.jpg"},
+        {name: "3. Kariye Mosque", description: "This mosque is renowned worldwide for its well-preserved mosaics and frescoes. When you visit you will see beautiful expamples of East Roman paintings in its last period.", image: "images/istanbul/KaryieMosque.jpg"}, 
+        {name: "4. Basilica Cistern", description: "This ancient underground reservoir holds 336 columns and haunting medusa heads. It offers a eerie yet beautiful escape into Byzantine history.", image: "images/istanbul/basilicaCistern.jpeg"},
+        {name: "5. Grand Bazaar", description: "This attraction is the oldest covered market in the world. If you are one for shopping, this is the place for you. Some goods sold include jewelry, textiles, clothing, leather goods, ceramics, and souvinirs.", image: "images/istanbul/grandBazaar.jpeg"},
+        {name: "6. Aya Sofya Tombs", description: "These tombs are the final resting places of five 16th- and 17th-century sultans. The stunning architecture of the dome shape shows how groundbreaking engineering was at the time. It is a symbol of cultrual exchange.", image: "images/istanbul/SofyaTombs.jpeg"},
+        {name: "7. Atatürk Arboretum", description: "This arboretum offers an escape from the city. It can offer scenic landscapes, plant collections, and educational opportunities. If you are a nature lover this is the spot for you. ", image: "images/istanbul/AtaturkAboretum.jpg"},
+        {name: "8. Eyüp Sultan Mosque", description: "It's a popular pilgrimage destination for Muslims and a place of worship for locals, though less frequented by international tourists.", image: "images/istanbul/yupSultanMosque.jpeg"},
+        {name: "9. Galata Tower", description: "Visiting provides a chance to experience Istanbul's rich history and enjoy breathtaking panoramic views", image: "images/istanbul/galataTower.avif"},
+        {name: "10. All Saints Moda Church", description: "This church is a unique place to visit due to its historical significance, architectural beauty, and welcoming atmosphere", image: "images/istanbul/AllSaintsModaChurch.jpg"}
     ];
 createAttractionElements(container, "Istanbul", attractions);
 }
