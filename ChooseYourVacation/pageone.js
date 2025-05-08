@@ -83,5 +83,5 @@ function showIstanbulAttractions() {
     const attractions = [
         {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/hagiasophia.jpg"}
     ];
-creatAttractionElements(container, "Istanbul", attractions);
+createAttractionElements(container, "Istanbul", attractions);
 }
