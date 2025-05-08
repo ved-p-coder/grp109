@@ -82,6 +82,6 @@ function showIstanbulAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
         {name: "1. Hagia Sophia Grand Mosque", description: "An architectural marvel"}
-
+];
 creatAttractionElements(container, "istanbul", attractions);
 }
