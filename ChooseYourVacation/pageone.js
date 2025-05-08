@@ -102,7 +102,7 @@ function showNewYorkAttractions() {
 function showIstanbulAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
-        {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/HagiaSophia2.jpg"},
+        {name: "1. Hagia Sophia Grand Mosque", description: "One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.", image: "images/hagiaSophia.jpg"},
         {name: "2. Topkapi Palace", description: "This place was at one point the court of the Ottoman Empire. Today you will see a collection of rare books, manuscripts and much more history of what this palace once was.", image: "images/TopkapiPalace.jpg"},
         {name: "3. Kariye Mosque", description: "This mosque is renowned worldwide for its well-preserved mosaics and frescoes. When you visit you will see beautiful expamples of East Roman paintings in its last period.", image: "images/KaryieMosque.jpg"}, 
         {name: "4. Basilica Cistern", description: "This ancient underground reservoir holds 336 columns and haunting medusa heads. It offers a eerie yet beautiful escape into Byzantine history.", image: "images/basilicaCistern.jpeg"},
