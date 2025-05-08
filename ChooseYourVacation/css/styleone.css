@@ -45,6 +45,13 @@ main {
     padding-bottom: 80px;
 }
 
+.attraction-image {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
 #footer {
     border: solid 1px;
     padding: 10px;
