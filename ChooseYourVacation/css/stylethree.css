@@ -36,6 +36,10 @@ nav a {
   margin-right: 10px;
 }
 
+main {
+  margin-bottom: 80px;
+}
+
 .validations {
   border: 2px dashed;
   padding: 15px;
