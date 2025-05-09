@@ -54,6 +54,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .lyv-log {
+  color: white;
   background-image: url("https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/bltcb5c5add9f186f0d/664cbc617f154494ea151f48/4832845-AdobeStock_216195684.jpeg?q=70&width=3840&auto=webp");
   background-size: cover;
   background-position: center;
