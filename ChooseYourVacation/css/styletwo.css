@@ -57,7 +57,7 @@ nav ul li a:hover, nav ul li a.active {
   color: white;
   background-image: url("https://archaeologymag.com/wp-content/uploads/historic-monuments-1.jpg");
   background-size: cover;
-  background-position: center px;
+  background-position: center -12px;
   background-repeat: no-repeat;
   padding: 5px;
   border: 1px solid;
@@ -70,7 +70,7 @@ nav ul li a:hover, nav ul li a.active {
   color: white;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0a/Madoogali_from_terrace.jpg");
   background-size: cover;
-  background-position: center -10px;
+  background-position: center;
   padding: 5px;
   border: 1px solid;
   margin-bottom: 10px;
