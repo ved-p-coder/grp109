@@ -67,7 +67,7 @@ nav ul li a:hover, nav ul li a.active {
 .ved-log {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTly0xh7itOHui6KF9cKPvXM5Xwu7NKeGOYfA&s");
   background-size: cover;
-  background-postion: center;
+  background-position: center;
   padding: 5px;
   border: 1px solid;
   margin-bottom: 10px;
@@ -78,7 +78,7 @@ nav ul li a:hover, nav ul li a.active {
 .will-log {
   background-color: yellow;
   background-size: cover;
-  background-postition: center;
+  background-position: center;
   padding: 5px;
   border: 1px solid;
   margin-bottom: 10px;
