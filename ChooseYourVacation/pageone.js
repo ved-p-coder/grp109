@@ -97,7 +97,7 @@ function showNewYorkAttractions() {
         { name: "9. 9/11 Memorial and Museum", description: "A powerful and moving tribute to the lives lost and the city’s resilience.", image: "images/newyork/911memorial.jpg" },
         { name: "10. Rockefeller Center", description: "Visit the Top of the Rock for a stunning view, go ice skating, or tour NBC Studios.", image: "images/newyork/rockefellercenter.jpg" }
     ];
-    createAttractionElements(container, "NewYork", attractions);
+    createAttractionElements(container, "New York", attractions);
 }
 
 function showIstanbulAttractions() {
