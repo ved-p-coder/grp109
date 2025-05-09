@@ -57,6 +57,11 @@ nav a {
   margin-bottom: 10px;
 }
 
+.html-results img {
+  width: 150px;
+  height: auto; 
+}
+
 #footer {
     border: solid 1px;
     padding: 10px;
