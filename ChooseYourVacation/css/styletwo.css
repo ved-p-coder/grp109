@@ -57,7 +57,7 @@ nav ul li a:hover, nav ul li a.active {
   color: white;
   background-image: url("https://archaeologymag.com/wp-content/uploads/historic-monuments-1.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 50px;
   padding: 5px;
   border: 1px solid;
   margin-bottom: 5px;
