@@ -43,6 +43,10 @@ nav ul li a:hover, nav ul li a.active {
   background-color: lightgray;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .ben-log {
   background-color: cornflowerblue;
   background-image: url("https://wallpapercave.com/wp/wp4118238.jpg");
