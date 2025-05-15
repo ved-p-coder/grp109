@@ -49,6 +49,10 @@ main {
   background-color: lightblue;
 }
 
+#iteration2 {
+  background-color: lightpink;
+}
+
 .html-results {
   background-color: lightgreen;
   padding: 10px;
