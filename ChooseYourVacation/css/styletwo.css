@@ -38,9 +38,17 @@ nav ul li a:hover, nav ul li a.active {
     background-color: #1a2530;
 }
 
-.iteration {
+.changes {
   border: 3px solid;
+  margin-bottom: 25px;
+}
+
+#iteration1 {
   background-color: lightgray;
+}
+
+#iteration2 {
+  background-color: lightblue;
 }
 
 p {
