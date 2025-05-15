@@ -25,8 +25,8 @@ nav ul li a {
     text-decoration: none;
     padding: 1rem 1.5rem;
     border-radius: 4px;
-    transition: background-color 0.3s
-    min-height: 44px
+    transition: background-color 0.3s;
+    min-height: 44px;
     min-width: 44px;
 }
 
@@ -58,7 +58,7 @@ main {
     margin-bottom: 10px;
 }
 
-#footer {
+footer {
     border: solid 1px;
     padding: 10px;
     margin: 10px 0 0 0;
