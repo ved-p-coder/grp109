@@ -26,7 +26,8 @@ nav ul li a {
     padding: 1rem 1.5rem;
     border-radius: 4px;
     transition: background-color 0.3s
-    min-height: 44px;
+    min-height: 44px
+    min-width: 44px;
 }
 
 nav ul li a:hover, nav ul li a.active {
