@@ -47,6 +47,10 @@ main {
   padding: 15px;
 }
 
+p {
+  line-height: 1.5;
+}
+
 #iteration1 {
   background-color: lightblue;
 }
