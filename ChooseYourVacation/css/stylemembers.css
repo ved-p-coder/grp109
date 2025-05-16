@@ -38,6 +38,10 @@ main {
    margin-bottom: 80px;
 }
 
+p {
+    line-height: 1.5;
+}
+
 footer {
     border: solid 1px;
     padding: 10px;
