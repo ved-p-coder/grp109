@@ -26,17 +26,21 @@
   <!-- Main content section with the dropdown menu to select each member and display their info 
   Created by: Ben -->
   <main>
-    <label for="member-select">Select a Member:</label>
-    <select id="member-select">
-      <option value="ben">Ben</option>
-      <option value="lyv">Lyv</option>
-      <option value="ved">Ved</option>
-      <option value="will">Will</option>
-    </select>
-
-    <div id="members-info">
-      <!-- Member information will be displayed here with Javascript -->
-    </div>
+    <section class="members-section">
+      <h2>Meet Our Team</h2>
+      <div class="dropdown-container">
+        <label for="member-select">Select a Member:</label>
+        <select id="member-select">
+          <option value="ben">Ben</option>
+          <option value="lyv">Lyv</option>
+          <option value="ved">Ved</option>
+          <option value="will">Will</option>
+        </select>
+      </div>
+      <div id="members-info" class="info-card">
+        <!-- Dynamic content appears here -->
+      </div>
+    </section>
   </main>
 
   <footer>
