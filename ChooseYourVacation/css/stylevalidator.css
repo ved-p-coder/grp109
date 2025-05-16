@@ -81,6 +81,7 @@ Created by: Ben */
   margin-bottom: 10px;
 }
 
+/* SiteImprove reults styling Creating by: Lyv */
 .siteimprove-results {
   background-color: lightpink;
   padding: 10px;
@@ -98,6 +99,13 @@ Created by: Ben */
 /* Images in CSS Validation section with fixed width and auto height adjustment 
 Created by: Ben */
 .css-results img {
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Images in SiteImprove Validation section with fixed width and auto height adjustment Created by: Lyv*/
+.siteimprove-results {
   width: 600px;
   height: auto;
   object-fit: cover;
