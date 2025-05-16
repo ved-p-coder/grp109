@@ -38,11 +38,14 @@ nav ul li a:hover, nav ul li a.active {
     background-color: #1a2530;
 }
 
+/* Container styling for each iteration/week */
 .changes {
   border: 3px solid;
   margin-bottom: 25px;
 }
 
+/* Different background colors to visually separate each iteration 
+Created by: Ben */
 #iteration1 {
   background-color: lightgray;
 }
@@ -55,6 +58,8 @@ p {
   line-height: 1.5;
 }
 
+/* Ben's member log styling 
+Created by: Ben */
 .ben-log {
   background-color: cornflowerblue;
   background-image: url("https://wallpapercave.com/wp/wp4118238.jpg");
@@ -67,6 +72,8 @@ p {
   margin-right: 4px;
 }
 
+/* Lyv's member log styling 
+Created by: Lyv */
 .lyv-log {
   /*color: white; */
   background-image: url("https://archaeologymag.com/wp-content/uploads/historic-monuments-1.jpg");
@@ -75,16 +82,18 @@ p {
   background-repeat: no-repeat;
   padding: 5px;
   border: 1px solid;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-left: 4px;
   margin-right: 4px;
 }
 
+/* Ved's member log styling 
+Created by: Ved */
 .ved-log {
   color: white;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0a/Madoogali_from_terrace.jpg");
   background-size: cover;
-  background-position: center px;
+  background-position: center;
   padding: 5px;
   border: 1px solid;
   margin-bottom: 10px;
@@ -92,6 +101,8 @@ p {
   margin-right: 4px;
 }
 
+/* Will's member log styling 
+Created by: Will */
 .will-log {
   color: white;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0SiMLKWcVMG7I1N2Aiq6-EkNbjPa_2pcWVw&s");
@@ -104,6 +115,7 @@ p {
   margin-right: 4px;
 }
 
+/* Footer styling */
 footer {
     border: solid 1px;
     padding: 10px;
