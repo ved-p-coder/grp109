@@ -1,3 +1,10 @@
+/* 
+  memberBackground.js
+  This script handles the display of background information for selected members.
+  Author: Ben
+  Last Modified: 5/15/202
+*/
+
 document.addEventListener("DOMContentLoaded", function() {
   const memberSelect = document.getElementById("member-select");
   const membersInfo = document.getElementById("members-info");
