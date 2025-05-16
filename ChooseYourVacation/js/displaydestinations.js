@@ -66,6 +66,8 @@ function createAttractionElements(container, cityName, attractions) {
     }
 }
 
+/* Displays Paris attractions 
+Created by: */
 function showParisAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
@@ -83,6 +85,8 @@ function showParisAttractions() {
     createAttractionElements(container, "Paris", attractions);
 }
 
+/* Displays New York attractions 
+Created by: Ben */
 function showNewYorkAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
@@ -100,6 +104,8 @@ function showNewYorkAttractions() {
     createAttractionElements(container, "New York", attractions);
 }
 
+/* Displays Istanbul attractions 
+Created by: */
 function showIstanbulAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
@@ -117,6 +123,8 @@ function showIstanbulAttractions() {
 createAttractionElements(container, "Istanbul", attractions);
 }
 
+/* Displays London attractions 
+Created by: */
 function showLondonAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
@@ -134,6 +142,8 @@ function showLondonAttractions() {
     createAttractionElements(container, "London", attractions);
 }
 
+/* Displays Hong Kong attractions 
+Created by: */
 function showHongKongAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
