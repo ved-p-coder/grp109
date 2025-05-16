@@ -38,8 +38,6 @@ nav ul li a:hover, nav ul li a.active {
     background-color: #1a2530;
 }
 
-
-
 main {
   padding: 2rem;
   display: flex;
@@ -60,7 +58,7 @@ main {
 
 .members-section h2 {
   font-size: 2rem;
-  color: #007bff;
+  color: #0066cc;
   margin-bottom: 1.5rem;
 }
 
