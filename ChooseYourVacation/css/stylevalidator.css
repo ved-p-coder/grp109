@@ -1,7 +1,9 @@
+/* Body font family using Work Sans */
 body {
   font-family: WorkSansRegular;
 }
 
+/* Header styling, blue background, white text, centered */
 header {
     background-color: #0000FF;
     color: white;
@@ -38,6 +40,7 @@ nav a {
   margin-right: 10px;
 }
 
+/* Main content spacing to avoid footer overlap */
 main {
   margin-bottom: 80px;
 }
@@ -52,6 +55,8 @@ p {
   line-height: 1.5;
 }
 
+/* Different background colors to visually separate each iteration 
+Created by: Ben */
 #iteration1 {
   background-color: lightblue;
 }
@@ -60,12 +65,16 @@ p {
   background-color: blueviolet;
 }
 
+/* HTML Validation results box styling 
+Created by: Ben */
 .html-results {
   background-color: lightgreen;
   padding: 10px;
   margin-bottom: 10px;
 }
 
+/* CSS Validation results box styling 
+Created by: Ben */
 .css-results {
   background-color: plum;
   padding: 10px;
@@ -78,19 +87,23 @@ p {
   margin-bottom: 10px;
 }
 
+/* Images in HTML Validation section with fixed width and auto height adjustment 
+Created by: Ben */
 .html-results img {
   width: 600px;
   height: auto;
   object-fit: cover;
 }
 
+/* Images in CSS Validation section with fixed width and auto height adjustment 
+Created by: Ben */
 .css-results img {
   width: 600px;
   height: auto;
   object-fit: cover;
 }
 
-#footer {
+footer {
     border: solid 1px;
     padding: 10px;
     margin: 10px 0 0 0;
