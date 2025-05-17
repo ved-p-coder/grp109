@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f8fc;
+  background-image: url("https://wallpaperaccess.com/full/97612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333;
 }
 
