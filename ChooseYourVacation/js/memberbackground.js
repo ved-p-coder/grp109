@@ -2,7 +2,7 @@
   memberBackground.js
   This script handles the display of background information for selected members.
   Author: Ben
-  Last Modified: 5/15/202
+  Last Modified: 5/15/2025
 */
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -60,11 +60,13 @@ function showMemberBackground(memberName) {
   descElem.textContent = member.description;
   container.appendChild(descElem);
 
+console.log("memberInfo for" + memberName + ":", memberInfo);
+  
   // Create and append the image if the image property exists - Created by Lyv 
-  if (memberInfo.image) {
+  if (member && member.image) {
     const imgElem = document.createElement("img");
-    imgElem.src = memberInfo.image;
-    imgElem.alt = memberInfo.title; // Add alt for accessibility
+    imgElem.src = member.image;
+    imgElem.alt = member.title; // Add alt for accessibility
     imgElem.style.maxWidth = "200px"; 
     container.appendChild(imgElem);
   }
