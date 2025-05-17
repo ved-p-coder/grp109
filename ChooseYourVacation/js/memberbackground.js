@@ -32,8 +32,7 @@ function showMemberBackground(memberName) {
 
     lyv: {
       title: "Lyv's Background",
-      description: "Lyv Description",
-      image: "images/MembersHeadshot/LyvHeadshotMembers.png"
+      description: "Lyv Description"
     },
 
     ved: {
@@ -60,16 +59,4 @@ function showMemberBackground(memberName) {
   descElem.textContent = member.description;
   container.appendChild(descElem);
 
-  console.log("memberInfo for" + memberName + ":" + member);
-
-  console.log("Checking for image for:", memberName, member);
-  
-  // Create and append the image if the image property exists - Created by Lyv 
-  if (member && member.image) {
-    const imgElem = document.createElement("img");
-    imgElem.src = member.image;
-    imgElem.alt = member.title; // Add alt for accessibility
-    imgElem.style.maxWidth = "200px"; 
-    container.appendChild(imgElem);
-  }
 }
