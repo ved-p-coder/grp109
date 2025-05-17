@@ -45,7 +45,8 @@ h2 {
 }
 
 p {
-  color: yellow;
+    color: yellow;
+    line-height: 1.5;
 }
 
 footer {
