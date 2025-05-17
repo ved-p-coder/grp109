@@ -42,7 +42,7 @@ function showMemberBackground(memberName) {
 
     will: {
       title: "Will's Background",
-      description: "Will Description"
+      description: "Will Meston will be in charge of handling various tasks on the customer preferences page."
     }
   };
 
@@ -59,5 +59,3 @@ function showMemberBackground(memberName) {
   descElem.textContent = member.description;
   container.appendChild(descElem);
 }
-        
-
