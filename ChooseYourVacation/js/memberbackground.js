@@ -33,7 +33,7 @@ function showMemberBackground(memberName) {
     lyv: {
       title: "Lyv's Background",
       description: "Lyv Description",
-      image: "images/MembersHeadshot/LyvHeadshotMembers.png"
+      image: "images/LyvHeadshotMembers.png"
     },
 
     ved: {
