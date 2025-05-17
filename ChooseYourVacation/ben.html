@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/ben.css" />
+  <title>Ben's Background</title>
+</head>
+<body>
+  <header>
+    <h1>Choose Your Vacation</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="changelogs.html">Change Document</a></li>
+        <li><a href="validator.html">Validation Tracker</a></li>
+        <li><a href="members.html">Members</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="members-section">
+      <div class="top-row">
+        <h2>Ved's Background</h2>
+        <div class="dropdown-container">
+          <label for="member-select">View Another Member:</label>
+          <select id="member-select" onchange="location = this.value;">
+            <option value="">-- Select --</option>
+            <option value="ben.html">Ben</option>
+            <option value="lyv.html">Lyv</option>
+            <option value="ved.html">Ved</option>
+            <option value="will.html">Will</option>
+          </select>
+        </div>
+      </div>
+
+      <section class="info-card">
+        <p>Ben Description.</p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright @2025 Choose Your Vacation</p>
+  </footer>
+</body>
+</html>
