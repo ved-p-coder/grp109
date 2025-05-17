@@ -108,6 +108,9 @@ main {
 
 p {
   line-height: 1.5;
+  font-family: 'ExoRegular';
+  font-weight: normal;
+  font-style: normal;
 }
 
 footer {
