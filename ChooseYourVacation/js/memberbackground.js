@@ -42,7 +42,7 @@ function showMemberBackground(memberName) {
 
     will: {
       title: "Will's Background",
-      description: "Will Meston will be in charge of handling various tasks on the customer preferences page."
+      description: "Will's main interest is technology, and he is looking into getting a degree in Digital Media Arts so he can become a freelance video editor."
     }
   };
 
