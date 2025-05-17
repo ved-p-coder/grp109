@@ -1,5 +1,5 @@
 body {
-  font-family: WorkSansRegular;
+  font-family: WorkSansRegular, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f8fc;
@@ -7,35 +7,37 @@ body {
 }
 
 header {
-    background-color: #0000FF;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
+  background-color: #0000FF;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
 }
 
 nav ul li {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 1rem 1.5rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-    min-height: 44px;
-    min-width: 44px;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  min-height: 44px;
+  min-width: 44px;
 }
 
-nav ul li a:hover, nav ul li a.active {
-    background-color: #1a2530;
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #1a2530;
 }
 
 main {
@@ -51,19 +53,33 @@ main {
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
-  text-align: center;
 }
 
-.members-section h2 {
-  font-size: 2rem;
-  color: #0066cc;
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 1.5rem;
 }
 
+.top-row h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
 .dropdown-container {
-  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dropdown-container label {
+  font-weight: bold;
+  color: #333;
 }
 
 #member-select {
@@ -83,32 +99,26 @@ main {
   transition: all 0.3s ease-in-out;
 }
 
-.info-card h2 {
-  margin-top: 0;
-  color: #0066cc;
+.info-card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.info-card p {
-  margin: 0.5rem 0 0 0;
-  font-size: 1rem;
+p {
   line-height: 1.5;
 }
 
-
-p {
-    line-height: 1.5;
-}
-
 footer {
-    border: solid 1px;
-    padding: 10px;
-    margin: 10px 0 0 0;
-    background-color: #0000FF;
-    color: white;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    box-sizing: border-box;
+  border: solid 1px;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  background-color: #0000FF;
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
 }
