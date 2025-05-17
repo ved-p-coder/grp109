@@ -92,10 +92,9 @@ main {
 }
 
 .info-card {
-  background-color: #f0f8ff;
+  background-color: #007bff;
   padding: 1.5rem;
   border-radius: 10px;
-  border-left: 5px solid #007bff;
   text-align: left;
   transition: all 0.3s ease-in-out;
 }
@@ -104,13 +103,13 @@ main {
   margin: 0;
   font-size: 1rem;
   line-height: 1.6;
+  font-family: 'ExoRegular';
+  font-weight: normal;
+  font-style: normal;
 }
 
 p {
   line-height: 1.5;
-  font-family: 'ExoRegular';
-  font-weight: normal;
-  font-style: normal;
 }
 
 footer {
