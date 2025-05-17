@@ -61,6 +61,8 @@ function showMemberBackground(memberName) {
   container.appendChild(descElem);
 
   console.log("memberInfo for" + memberName + ":" + member);
+
+  console.log("Checking for image for:", memberName, member);
   
   // Create and append the image if the image property exists - Created by Lyv 
   if (member && member.image) {
