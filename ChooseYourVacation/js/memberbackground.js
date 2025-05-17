@@ -60,7 +60,7 @@ function showMemberBackground(memberName) {
   descElem.textContent = member.description;
   container.appendChild(descElem);
 
-console.log("memberInfo for" + memberName + ":", memberInfo);
+  console.log("memberInfo for" + memberName + ":" + member);
   
   // Create and append the image if the image property exists - Created by Lyv 
   if (member && member.image) {
