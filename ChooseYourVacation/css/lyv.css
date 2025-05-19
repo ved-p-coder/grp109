@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK92sMa4WiuCSrwyMQza4kMPt5rJGyvmUdnA&s");
   background-repeat: no repeat;
-  background-size: cover;
+  background-size: contain;
   /*background-color: #f4f8fc;*/
   color: #333;
 }
