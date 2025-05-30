@@ -3,10 +3,15 @@ body {
 }
 
 header {
-    background-color: #0000FF;
+    background-color: #4361ee;
     color: white;
     padding: 1rem 0;
     text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom 1rem;
 }
 
 nav ul {
@@ -16,53 +21,78 @@ nav ul {
     margin-top: 1rem;
 }
 
-nav ul li {
-    margin: 0 1rem;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  transition: background 0.3s;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 1rem 1.5rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-    min-height: 44px;
-    min-width: 44px;
+nav a:hover, nav  a.active {
+    background-color: #3a56d4;
 }
 
-nav ul li a:hover, nav ul li a.active {
-    background-color: #1a2530;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-p {
-    line-height: 1.5;
+.vacation form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
 }
 
-.destination-btn {
-    min-width: 44px;
-    min-height: 44px;
-    padding: 0.5rem 1rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.vacation-form h2 {
+  color: #4361ee
+    margin-bottom: 1.5rem;
+  font-size: 1.8rem;
 }
 
-main {
-    padding-bottom: 80px;
+.form-group {
+  margin-bottom: 1.5rem;
 }
 
-.attraction-image {
-    width: 400px;
-    height: auto;
-    object-fit: cover;
-    margin-bottom: 10px;
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #adb5bd;
+  font-size: 1rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+select:focus {
+  outline: none;
+  border-color: #4361ee;
+}
+
+.btn-primary {
+  background-color: #4361ee;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  align-items: center;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #3a56d4;
 }
 
 footer {
     border: solid 1px;
     padding: 10px;
     margin: 10px 0 0 0;
-    background-color: #0000FF;
+    background-color: #4361ee;
     color: white;
     width: 100%;
     text-align: center;
