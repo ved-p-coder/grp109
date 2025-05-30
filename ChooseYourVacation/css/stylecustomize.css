@@ -140,7 +140,7 @@ Created by: Ben */
 /* Styling of result card header
 Created by: Ben */
 .result-card h3 {
-  color: var(--primary);
+  color: #0041ab;
   margin-bottom: 0.5rem;
 }
 
