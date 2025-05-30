@@ -1,7 +1,11 @@
+/* Main font for entire page
+Created by: Ben */
 body {
     font-family: WorkSansRegular;
 }
 
+/* Styling of header
+Created by: Ben */
 header {
     background-color: #4361ee;
     color: white;
@@ -9,6 +13,8 @@ header {
     text-align: center;
 }
 
+/* Styling of header title
+Created by: Ben */
 header h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -21,6 +27,8 @@ nav ul {
     margin-top: 1rem;
 }
 
+/* Styling of nav links
+Created by: Ben */
 nav a {
   color: white;
   text-decoration: none;
@@ -30,10 +38,14 @@ nav a {
   transition: background 0.3s;
 }
 
+/* Change nav background on hover/active
+Created by: Ben */
 nav a:hover, nav  a.active {
     background-color: #3a56d4;
 }
 
+/* Center and size content
+Created by: Ben */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -41,6 +53,8 @@ nav a:hover, nav  a.active {
   padding: 0 1rem;
 }
 
+/* Styling of the form box
+Created by: Ben */
 .vacation form {
   background: white;
   padding: 2rem;
@@ -48,16 +62,22 @@ nav a:hover, nav  a.active {
   margin: 2rem 0;
 }
 
+/* Styling of form heading
+Created by: Ben */
 .vacation-form h2 {
     color: #4361ee;
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
 }
 
+/* Added spacing between each form element
+Created by: Ben */
 .form-group {
   margin-bottom: 1.5rem;
 }
 
+/* Styling of dropdown menu
+Created by: Ben */
 select {
   width: 100%;
   padding: 0.5rem;
@@ -66,11 +86,15 @@ select {
   transition: border 0.3s, box-shadow 0.3s;
 }
 
+/* Highlight dropdown when selected
+Created by: Ben */
 select:focus {
   outline: none;
   border-color: #4361ee;
 }
 
+/* Styling the generate button
+Created by: Ben */
 .btn-primary {
   background-color: #4361ee;
   color: white;
@@ -84,6 +108,8 @@ select:focus {
   width: 100%;
 }
 
+/* Darken button when hovered
+Created by: Ben */
 .btn-primary:hover {
   background-color: #3a56d4;
 }
