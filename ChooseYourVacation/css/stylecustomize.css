@@ -8,7 +8,7 @@ body {
 /* Styling of header
 Created by: Ben */
 header {
-    background-color: #4361ee;
+    background-color: #0041ab;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -99,7 +99,7 @@ select:focus {
 /* Styling the generate button
 Created by: Ben */
 .btn-primary {
-  background-color: #4361ee;
+  background-color: #0041ab;
   color: white;
   border: none;
   padding: 0.5rem 1.5rem;
@@ -148,7 +148,7 @@ footer {
     border: solid 1px;
     padding: 10px;
     margin: 10px 0 0 0;
-    background-color: #4361ee;
+    background-color: #0041ab;
     color: white;
     width: 100%;
     text-align: center;
