@@ -161,4 +161,8 @@ footer {
     left: 0;
     box-sizing: border-box;
 }
+
+footer p {
+    line-height: 1.5;
+}
     
