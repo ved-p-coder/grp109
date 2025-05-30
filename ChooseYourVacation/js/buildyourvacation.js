@@ -34,13 +34,13 @@ function findBestMatch() {
     });
 
 	if (bestMatch) {
-		resultTitle.textContent = 'Your next vacation is in ${bestMatch}!';
-		resultDesc.textContent = 'To learn more, visit our home page!';
+		resultTitle.textContent = `Your next vacation is in ${bestMatch}!`;
+		resultDesc.textContent = `To learn more, visit our home page!`;
 	}
 
 	else {
-		resultTitle.textContent = 'No strong match found.';
-		resultDesc.textContent = 'Try selecting different options!';
+		resultTitle.textContent = `No strong match found.`;
+		resultDesc.textContent = `Try selecting different options!`;
 	}
 
 	resultCard.classList.add("show");
