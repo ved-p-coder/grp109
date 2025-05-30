@@ -13,6 +13,10 @@ function findBestMatch() {
     const selectedLandmark = document.getElementById("landmark").value;
     const selectedClimate = document.getElementById("climate").value;
 
+    const resultCard = document.getElementById("resultCard");
+    const resultTitle = document.getElementById("resultTitle");
+    const resultDesc = document.getElementById("resultDesc");
+
     let bestMatch = null;
     let highestScore = 0;
 
@@ -29,7 +33,19 @@ function findBestMatch() {
         }
     });
 
-    document.getElementById("result").textContent = bestMatch
+	if (bestMatch) {
+		resultTitle.textContent = 'Your next vacation is in ${bestMatch}!';
+		resultDesc.textContent = 'To learn more, visit our home page!';
+	}
+
+	else {
+		resultTitle.textContent = 'No strong match found.';
+		resultDesc.textContent = 'Try selecting different options!';
+	}
+
+	resultCard.classList.add("show");
+
+    /* document.getElementById("result").textContent = bestMatch
         ? `Your next vacation is in ${bestMatch}! To learn more, visit our home page!`
-        : "No strong match found. Try selecting different options!";
+        : "No strong match found. Try selecting different options!"; */
 }
