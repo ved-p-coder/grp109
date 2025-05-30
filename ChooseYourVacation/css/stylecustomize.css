@@ -2,6 +2,7 @@
 Created by: Ben */
 body {
     font-family: WorkSansRegular;
+    padding-bottom: 40px;
 }
 
 /* Styling of header
@@ -153,7 +154,6 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
-    padding-bottom: 40px;
     left: 0;
     box-sizing: border-box;
 }
