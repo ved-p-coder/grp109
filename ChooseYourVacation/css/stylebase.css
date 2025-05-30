@@ -72,27 +72,6 @@ select:focus {
   border-color: #4361ee;
 }
 
-/* Styling the primary button
-Created by: Ben */
-.btn-primary {
-  background-color: #0041ab;
-  color: white;
-  border: none;
-  padding: 0.5rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-  align-items: center;
-  transition: background 0.3s;
-  width: 100%;
-}
-
-/* Darken button when hovered
-Created by: Ben */
-.btn-primary:hover {
-  background-color: #3a56d4;
-}
-
 footer {
     border: solid 1px;
     padding: 10px;
