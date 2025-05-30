@@ -11,7 +11,7 @@ const destinations = [
 document.getElementById("vacationForm").addEventListener("submit", function(x) {
 	x.preventDefault(); // Prevent form from actually being submitted
 	findBestMatch(); // Calls the function
-}
+});
 
 function findBestMatch() {
     const selectedRecreation1 = document.getElementById("recreation1").value;
