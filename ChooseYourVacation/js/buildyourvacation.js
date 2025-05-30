@@ -43,6 +43,7 @@ function findBestMatch() {
 		resultDesc.textContent = `Try selecting different options!`;
 	}
 
+	/* Displays result card */
 	resultCard.classList.add("show");
 
     /* document.getElementById("result").textContent = bestMatch
