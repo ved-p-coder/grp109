@@ -7,6 +7,12 @@ const destinations = [
             { place: "Hong Kong, China", recreation1: "hiking", recreation2: "amusement", landmark: "statue", climate: "warm"},
         ];
 
+/* Allows the form to actually be submitted */
+document.getElementById("vacationForm").addEventListener("submit", function(x) {
+	x.preventDefault(); // Prevent form from actually being submitted
+	findBestMatch(); // Calls the function
+}
+
 function findBestMatch() {
     const selectedRecreation1 = document.getElementById("recreation1").value;
     const selectedRecreation2 = document.getElementById("recreation2").value;
