@@ -7,6 +7,7 @@
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/en/face/work-sans" type="text/css">
   <title>Choose Your Vacation</title>
 </head>
+  
   <body>
     <header>
       <h1>Choose Your Vacation</h1>
@@ -20,44 +21,66 @@
       </ul>
     </nav>
     </header>
-    <h2>Build Your Vacation</h2>
-<label>Select recreational activity 1</label><br>
-  <select id="recreation1">
-  <option value="">--</option>
-  <option value="river">River Trip</option>
-  <option value="hike">Hiking</option>
-  <option value="park">Park</option>
-  <option value="museum">Museum</option>
-  <option value="theater">Theater</option>
-  <option value="amusement">Amusement Park</option>
-  </select><br>
-<label>Select recreational activity 2</label><br>
-  <select id="recreation2">
-  <option value="">--</option>
-  <option value="river">River Trip</option>
-  <option value="hike">Hiking</option>
-  <option value="park">Park</option>
-  <option value="museum">Museum</option>
-  <option value="theater">Theater</option>
-  <option value="amusement">Amusement Park</option>
-  </select><br>
-<label>Select type of landmark</label><br>
-  <select id="landmark">
-  <option value="">--</option>
-  <option value="church">Church or Temple</option>
-  <option value="market">Market</option>
-  <option value="statue">Statue</option>
-  <option value="palace">Palace</option>
-  <option value="bridge">Bridge</option>
-  </select><br>
-<label>Select climate</label><br>
-  <select id="climate">
-  <option value="">--</option>
-  <option value="warm">Warm</option>
-  <option value="cool">Cool</option>
-  </select><br>
-    <button onclick="findBestMatch()">Generate</button>
-    <p id="result"></p>
+
+   <main class="container">
+      <section class="vacation-form">
+        <h2>Build Your Vacation</h2>
+        
+        <form id="vacationForm">
+          <div class="form-group">
+            <label>Select Recreational Activity 1</label><br>
+            <select id="recreation1" required>
+              <option value="">-- Choose --</option>
+              <option value="river">River Trip</option>
+              <option value="hike">Hiking</option>
+              <option value="park">Park</option>
+              <option value="museum">Museum</option>
+              <option value="theater">Theater</option>
+              <option value="amusement">Amusement Park</option>
+              </select><br>
+            </div>
+          
+          <div class="form-group">
+            <label>Select Recreational Activity 2</label><br>
+            <select id="recreation2">
+              <option value="">-- Choose --</option>
+              <option value="river">River Trip</option>
+              <option value="hike">Hiking</option>
+              <option value="park">Park</option>
+              <option value="museum">Museum</option>
+              <option value="theater">Theater</option>
+              <option value="amusement">Amusement Park</option>
+              </select><br>
+            </div>
+          
+          <div class="form-group">
+            <label>Select Type of Landmark</label><br>
+            <select id="landmark">
+              <option value="">-- Choose --</option>
+              <option value="church">Church or Temple</option>
+              <option value="market">Market</option>
+              <option value="statue">Statue</option>
+              <option value="palace">Palace</option>
+              <option value="bridge">Bridge</option>
+              </select><br>
+            </div>
+
+          <div class="form-group">
+            <label>Select Climate</label><br>
+            <select id="climate">
+              <option value="">-- Choose --</option>
+              <option value="warm">Warm</option>
+              <option value="cool">Cool</option>
+              </select><br>
+            </div>
+
+          <button class="btn-primary" onclick="findBestMatch()">Generate</button>
+          <p id="result"></p>
+      
+        </form>
+      </section>
+   </main>
+      
       <footer>
     <p>Copyright @2025 Choose Your Vacation</p>
   </footer>
