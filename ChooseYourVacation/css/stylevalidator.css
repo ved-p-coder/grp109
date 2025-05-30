@@ -1,58 +1,7 @@
-/* Body font family using Work Sans */
-body {
-  font-family: WorkSansRegular;
-}
-
-/* Header styling, blue background, white text, centered */
-header {
-    background-color: #0000FF;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: 1rem;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 1rem 1.5rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-    min-height: 44px;
-    min-width: 44px;
-}
-
-nav ul li a:hover, nav ul li a.active {
-    background-color: #1a2530;
-}
-
-nav a {
-  margin-right: 10px;
-}
-
-/* Main content spacing to avoid footer overlap */
-main {
-  margin-bottom: 80px;
-}
-
 .validations {
   border: 2px dashed;
   padding: 15px;
   margin-bottom: 25px;
-}
-
-p {
-  line-height: 1.5;
 }
 
 /* Different background colors to visually separate each iteration 
@@ -70,7 +19,6 @@ Created by: Lyv */
 #iteration3 {
   background-color: #8F32ED;
 }
-
 
 /* Background color for iteration 4 
 Created by: Ved */
@@ -121,24 +69,10 @@ Created by: Ben */
   object-fit: cover;
 }
 
-/* Images in SiteImprove Validation section with fixed width and auto height adjustment Created by: Lyv */
+/* Images in SiteImprove Validation section with fixed width and auto height adjustment 
+Created by: Lyv */
 .siteimprove-results img {
   width: 600px;
   height: auto;
   object-fit: cover;
-}
-
-footer {
-    border: solid 1px;
-    padding: 10px;
-    margin: 10px 0 0 0;
-    background-color: #0000FF;
-    color: white;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    box-sizing: border-box;
-}
-    
+}   
