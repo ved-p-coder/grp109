@@ -29,7 +29,7 @@
         <form id="vacationForm">
           <div class="form-group">
             <label>Select Recreational Activity 1</label><br>
-            <select id="recreation1">
+            <select id="recreation1" name="recreation1">
               <option value="">-- Choose --</option>
               <option value="river">River Trip</option>
               <option value="hike">Hiking</option>
@@ -42,7 +42,7 @@
           
           <div class="form-group">
             <label>Select Recreational Activity 2</label><br>
-            <select id="recreation2">
+            <select id="recreation2" name="recreation2">
               <option value="">-- Choose --</option>
               <option value="river">River Trip</option>
               <option value="hike">Hiking</option>
@@ -55,7 +55,7 @@
           
           <div class="form-group">
             <label>Select Type of Landmark</label><br>
-            <select id="landmark">
+            <select id="landmark" name="landmark">
               <option value="">-- Choose --</option>
               <option value="church">Church or Temple</option>
               <option value="market">Market</option>
@@ -67,14 +67,14 @@
 
           <div class="form-group">
             <label>Select Climate</label><br>
-            <select id="climate">
+            <select id="climate" name="climate">
               <option value="">-- Choose --</option>
               <option value="warm">Warm</option>
               <option value="cool">Cool</option>
               </select><br>
             </div>
 
-          <button type="button" class="btn-primary" onclick="findBestMatch()">Generate</button>
+          <button type="submit" class="btn-primary">Generate</button>
           <div id="resultCard" class="result-card">
             <h3 id="resultTitle">Vacation Result</h3>
             <p id="resultDesc"></p>
