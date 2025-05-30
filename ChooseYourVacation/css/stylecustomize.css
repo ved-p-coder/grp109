@@ -114,6 +114,33 @@ Created by: Ben */
   background-color: #3a56d4;
 }
 
+/* Styling result Card 
+Created by: Ben */
+.result-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 2rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Shows the result card and resets position
+Created by: Ben */
+.result-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Styling of result card header
+Created by: Ben */
+.result-card h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
 footer {
     border: solid 1px;
     padding: 10px;
