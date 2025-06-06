@@ -1,11 +1,12 @@
-function isValid() {
-    if (firstName() && lastName() && email() && phone() && username() && password() && address() && city() && state() && country() && zipcode()
-    )
-    return true;
- else 
-        document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
-        event.preventDefault();
-        return false;
+function isValid(event) {
+    if (firstName() && lastName() && email() && phone() && username() && password() && address() && city() && state() && country() && zipCode()) {
+        return true;
+    }
+ else {
+     document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
+     event.preventDefault();
+     return false;
+ }
 }
 
 FirstName.addEventListener('blur', firstName, false);
@@ -320,14 +321,4 @@ function zipCode() {
     }
     document.getElementById("zipcode").innerHTML = errorMessages;
     return validZipCode;
-}
-
-function ValidateForm() {
-    if (firstName() && lastName() && email() && phone() && username() && password() && address() && city() && state() && country() && zipcode()) {
-        return true;
-    } else {
-        document.getElementById("submiterror").innerHTML = "<p><strong> Error submitting - see above</strong></p>";
-        event.preventDefault();
-        return false;
-    }
 }
