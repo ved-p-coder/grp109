@@ -28,7 +28,7 @@
     
     <main>
       <p>Please fill out this form to complete your transaction:</p>
-        <form id="myform" action="ty.html" onsubmit="return submitFormAndSaveData(event);">
+        <form id="myform" action="ty.html" onsubmit="return isValid(event);">
     <!--First name-->
             <p>
                 <label for='FirstName'>First Name:</label>
@@ -50,7 +50,7 @@
     <!--Phone Number-->
             <p>
                 <label for = 'Phone'>Phone Number:</label>
-                <input type = "tel" id = "Phone" name = "Phone" placeholder = "e.ge, 555-555-5555">
+                <input type = "tel" id = "Phone" name = "Phone" placeholder = "e.g., 555-555-5555">
             </p>
             <div class = "warning" id = "phoneDiv"></div>
     <!--Username-->
@@ -133,7 +133,8 @@
                     <option value = "WI">Wisconsin</option>
                     <option value = "WY">Wyoming</option>
                 </select>
-                <div id = "state"></div>
+            </p>
+                <div class = "warning" id = "state"></div>
         <!--country-->
             <p>
                 <label for = "Country">Country:</label>
@@ -145,14 +146,13 @@
                     <option value = "GB">United Kingdom</option>
                     <option value = "DE">Germany</option>
                     <option value = "FR">France</option>
-                    <option value = "AU">Austrailia</option>
+                    <option value = "AU">Australia</option>
                     <option value = "JP">Japan</option>
                     <option value = "CN">China</option>
                     <option value = "IN">India</option>
                     <option value = "AF">Afghanistan</option>
                     <option value = "AT">Austria</option>
                     <option value = "BS">Bahamas</option>
-                    <option value = "BR">Brazil</option>
                     <option value = "BR">Brazil</option>
                     <option value = "CL">Chile</option>
                     <option value = "DO">Dominican Republic</option>
@@ -163,13 +163,14 @@
                     <option value = "IS">Iceland</option>
                     <option value = "KE">Kenya</option>
                 </select>
-                <div id = "country"></div>
+            </p>
+                <div class = "warning" id = "country"></div>
         <!--Zip code-->
             <p>
                 <label for = "ZipCode">Zip Code:</label>
                 <input type = "text" id = "ZipCode" name = "ZipCode" maxlength = "5">
             </p>
-            <div id = "zipcode"></div>
+            <div class = "warning" id = "zipcode"></div>
             
             <p>
                 <input type="submit" id="submit" name="submit" value="Submit">
