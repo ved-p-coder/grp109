@@ -204,7 +204,7 @@ function address() {
         console.log("Address invalid - length too long");
     } else if (userAddress.match(/^[a-zA-Z0-9 .,#'-]+$/) === null) {
         errorMessages += "<p> Address contains invalid characters </p>";
-        console.log("address invalid - bad characters");
+        console.log("Address Invalid - bad characters");
     }
     else {
         validAddress = true;
@@ -252,7 +252,7 @@ function state() {
 
 // Validation check
     if (userState === null || userState === "") {
-        errorMessages += "<p> Please select your state.</p>";
+        errorMessages += "<p>Please select a state.</p>";
         console.log("State invalid - not selected");
     }
     else {
@@ -276,7 +276,7 @@ function country() {
 
 // validation check
     if (userCountry === null || userCountry === "") {
-        errorMessages += "<p> please select a country.</p>";
+        errorMessages += "<p>Please select a country.</p>";
         console.log("Country invalid - not selected");
     }
     else {
