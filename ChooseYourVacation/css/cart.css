@@ -1,1 +1,21 @@
+/* Warning text is red and bolded*/
+.warning {
+    color: red;
+    font-weight: bold;
+}
 
+/* Center text and border around form */
+form {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    border: 4px solid;
+    background-color: Azure;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Center heading */
+h2 {
+    margin: 50px auto;
+    text-align: center;
+}
