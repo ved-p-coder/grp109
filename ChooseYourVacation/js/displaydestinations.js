@@ -27,10 +27,13 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // This function creates and displays a list of tourist attractions for a given city
-function createAttractionElements(container, cityName, attractions) {
+function createAttractionElements(container, cityName, attractions, flightPrice) {
     // Clear any existing content inside the container
     container.innerHTML = "";
 
+// Adding a round trip flight price to destination
+    mainHeader.textContent = `Choose Your Vacation - Round Trip to ${cityName} from US is around $${flightPrice}`;
+    
     // Create a heading element (h2) with the city name
     const header = document.createElement("h2");
     header.textContent = `Top 10 Tourist Attractions in ${cityName}`;
@@ -71,6 +74,7 @@ function createAttractionElements(container, cityName, attractions) {
 Created by: */
 function showParisAttractions() {
     const container = document.getElementById("attractions-container");
+    const flightPrice = "1,700" //Paris Flight price
     const attractions = [
         { name: "1. Eiffel Tower", description: `The iconic iron lattice tower on the Champ de Mars, built in 1889. It is one of the worlds most recognizable landmarks and offers breathtaking views of Paris.
     This attraction varies in price for adults, Youth, and Children.
@@ -124,6 +128,7 @@ function showParisAttractions() {
 Created by: Ben */
 function showNewYorkAttractions() {
     const container = document.getElementById("attractions-container");
+    const flightPrice = "500"; // New York Flight price
     const attractions = [
         { name: "1. Statue of Liberty", description: `A symbol of freedom and democracy, offering breathtaking views from its pedestal and crown.
     This attraction costs: $25.50`,
@@ -177,6 +182,7 @@ function showNewYorkAttractions() {
 Created by: */
 function showIstanbulAttractions() {
     const container = document.getElementById("attractions-container");
+    const flightPrice = "1,900"; // Istanbul Flight price
     const attractions = [
         {name: "1. Hagia Sophia Grand Mosque", description: `One of Byzantine Empire's surviving architectural marvels. Right in the center of Istanbul's historic center, this building remains an important symbil of power.
     This attraction costs: £25 (≈ $29)`,
@@ -227,6 +233,7 @@ createAttractionElements(container, "Istanbul", attractions);
 Created by: */
 function showLondonAttractions() {
     const container = document.getElementById("attractions-container");
+    const flightPrice = "1,200"; // London flight price
     const attractions = [
         { name: "1. Tower of London", description: `A historic castle on the north bank of the River Thames, known for housing the Crown Jewels and its fascinating history.
     This attraction costs: 
@@ -288,6 +295,7 @@ function showLondonAttractions() {
 Created by: */
 function showHongKongAttractions() {
     const container = document.getElementById("attractions-container");
+    const flightPrice = "1,500" // Hong Kong flight price
     const attractions = [
         { name: "1. Victoria Peak", description: `The highest hill on Hong Kong Island, offering stunning views of the city skyline, Victoria Harbour, and surrounding islands.
     This attraction is FREE`, 
