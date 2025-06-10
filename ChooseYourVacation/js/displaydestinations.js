@@ -49,6 +49,7 @@ function createAttractionElements(container, cityName, attractions) {
 
         // Create a paragraph for the attraction's description
         const descPara = document.createElement("p");
+        descPara.className = "attraction-description-text";
         descPara.textContent = attractions[i].description;
         attractionDiv.appendChild(descPara); // Add description to the attraction div
 
@@ -71,15 +72,31 @@ Created by: */
 function showParisAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
-        { name: "1. Eiffel Tower", description: "The iconic iron lattice tower on the Champ de Mars, built in 1889. It is one of the worlds most recognizable landmarks and offers breathtaking views of Paris.", image: "images/paris/EiffelTower.png" },
+        { name: "1. Eiffel Tower", description: `The iconic iron lattice tower on the Champ de Mars, built in 1889. It is one of the worlds most recognizable landmarks and offers breathtaking views of Paris.
+    This attraction varies in price for adults, Youth, and Children.
+        Adult prices: 
+            Second floor using stairs: £14.20 (≈ $16).
+            Second floor with Lift: £22.60 (≈ $25).
+            Top floor with Lift: £25.30 (≈ $28).
+        Youth (12-24 yrs old) and child (4-11 yrs old) price vary.`,
+         image:"images/paris/EiffelTower.png" },
+        
         { name: "2. Louvre Museum", description: "The world's largest art museum and historic monument, home to thousands of works of art including the Mona Lisa and Venus de Milo.", image: "images/paris/Louvre.png" },
+        
         { name: "3. Notre-Dame Cathedral", description: "A medieval Catholic cathedral known for its French Gothic architecture, beautiful rose windows, and flying buttresses.", image: "images/paris/Notre-Dame.png" },
+        
         { name: "4. Arc de Triomphe", description: "A monumental arch honoring those who fought for France, offering panoramic views from the top and standing at the center of a star-shaped configuration of 12 radiating avenues.", image: "images/paris/Arc-De-Triomphe.png" },
+        
         { name: "5. Montmartre", description: "A historic hill district known for its artistic history, the white-domed Basilica of the Sacré-Cœur, and stunning views of the city.", image: "images/paris/Montmarte.png" },
+        
         { name: "6. Champs-Élysées", description: "One of the world's most famous avenues, known for luxury shops, cafés, and the annual Bastille Day military parade.", image: "images/paris/Champs-Elysees.png" },
+        
         { name: "7. Seine River Cruise", description: "A scenic boat tour along the Seine River, offering unique perspectives of Paris's famous monuments and bridges.", image: "images/paris/Seine-River-Cruise.png" },
+        
         { name: "8. Palace of Versailles", description: "The principal royal residence of France from 1682 until the start of the French Revolution, known for its opulent décor, Hall of Mirrors, and beautiful gardens.", image: "images/paris/Palace-Versailles.png" },
+        
         { name: "9. Musée d'Orsay", description: "A museum housed in a former railway station, featuring the largest collection of impressionist and post-impressionist masterpieces in the world.", image: "images/paris/Musee-D-Orsay.png" },
+        
         { name: "10. Centre Pompidou", description: "A complex building in the style of high-tech architecture, housing the largest museum for modern art in Europe.", image: "images/paris/Centre-Pompidou.png" }
     ];
     createAttractionElements(container, "Paris", attractions);
