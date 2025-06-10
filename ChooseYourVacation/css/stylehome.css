@@ -11,11 +11,13 @@
   transition: background-color 0.3s;
 }
 
+.attraction .attraction-description-text {
+  white-space: pre-wrap;
+}
+
 .attraction-image {
     width: 400px;
     height: auto;
     object-fit: cover;
     margin-bottom: 10px;
 }
-
-    
