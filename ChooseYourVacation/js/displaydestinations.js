@@ -289,25 +289,47 @@ Created by: */
 function showHongKongAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
-        { name: "1. Victoria Peak", description: "The highest hill on Hong Kong Island, offering stunning views of the city skyline, Victoria Harbour, and surrounding islands.", image: "images/hongkong/Victoria-Peak.png" },
+        { name: "1. Victoria Peak", description: `The highest hill on Hong Kong Island, offering stunning views of the city skyline, Victoria Harbour, and surrounding islands.
+    This attraction is FREE`, 
+         image: "images/hongkong/Victoria-Peak.png" },
         
-        { name: "2. Victoria Harbour", description: "A natural landform harbor separating Hong Kong Island and Kowloon Peninsula, known for its spectacular skyline.", image: "images/hongkong/Victoria-Harbour.png" },
+        { name: "2. Victoria Harbour", description: `A natural landform harbor separating Hong Kong Island and Kowloon Peninsula, known for its spectacular skyline.
+    This attraction is FREE`,
+         image: "images/hongkong/Victoria-Harbour.png" },
         
-        { name: "3. Hong Kong Disneyland", description: "A theme park featuring classic Disney attractions and entertainment based on Disney characters and stories.", image: "images/hongkong/Hong-Kong-Disneyland.png" },
+        { name: "3. Hong Kong Disneyland", description: `A theme park featuring classic Disney attractions and entertainment based on Disney characters and stories.
+    This attraction costs: HK$430-HK$1569 (≈ $60-$200)`, 
+         image: "images/hongkong/Hong-Kong-Disneyland.png" },
         
-        { name: "4. Tian Tan Buddha (Big Buddha)", description: "A large bronze statue of Buddha Shakyamuni, located near Po Lin Monastery on Lantau Island.", image: "images/hongkong/Tian-Tan-Buddha.png" },
+        { name: "4. Tian Tan Buddha (Big Buddha)", description: `A large bronze statue of Buddha Shakyamuni, located near Po Lin Monastery on Lantau Island.
+    This attraction is FREE`, 
+         image: "images/hongkong/Tian-Tan-Buddha.png" },
         
-        { name: "5. Temple Street Night Market", description: "A bustling night market known for its street food, trinkets, and fortune tellers.", image: "images/hongkong/Temple-Street-Night-Market.png" },
+        { name: "5. Temple Street Night Market", description: `A bustling night market known for its street food, trinkets, and fortune tellers.
+    This attraction is FREE`,
+         image: "images/hongkong/Temple-Street-Night-Market.png" },
         
-        { name: "6. Star Ferry", description: "A passenger ferry service operating across Victoria Harbour, offering iconic views of the Hong Kong skyline.", image: "images/hongkong/Star-Ferry.png" },
+        { name: "6. Star Ferry", description: `A passenger ferry service operating across Victoria Harbour, offering iconic views of the Hong Kong skyline.
+    This attraction costs: HK$2.70-HK$5.60 (≈ $0.34-$0.71)`,
+         image: "images/hongkong/Star-Ferry.png" },
         
-        { name: "7. Wong Tai Sin Temple", description: "A famous shrine and popular tourist attraction, known for its beautiful architecture and fortune-telling services.", image: "images/hongkong/Wong-Tai-Sin-Temple.png" },
+        { name: "7. Wong Tai Sin Temple", description: `A famous shrine and popular tourist attraction, known for its beautiful architecture and fortune-telling services.
+    This attraction is FREE`,
+         image: "images/hongkong/Wong-Tai-Sin-Temple.png" },
         
-        { name: "8. Ocean Park", description: "A marine mammal park, oceanarium, animal theme park, and amusement park featuring animal exhibits and thrilling rides.", image: "images/hongkong/Ocean-Park.png" },
+        { name: "8. Ocean Park", description: `A marine mammal park, oceanarium, animal theme park, and amusement park featuring animal exhibits and thrilling rides.
+    This attraction costs: 
+        Adult: HK$498 (≈ $64)
+        Child: HK$249 (≈ $32)`, 
+         image: "images/hongkong/Ocean-Park.png" },
         
-        { name: "9. Lan Kwai Fong", description: "A popular nightlife district with numerous bars, restaurants, and clubs.", image: "images/hongkong/Lan-Kwai-Fong.png" },
+        { name: "9. Lan Kwai Fong", description: `A popular nightlife district with numerous bars, restaurants, and clubs.
+    This attraction is FREE`, 
+         image: "images/hongkong/Lan-Kwai-Fong.png" },
         
-        { name: "10. Ngong Ping 360", description: "A cable car system offering spectacular views of the mountains, South China Sea, and Hong Kong International Airport.", image: "images/hongkong/Ngong-Ping.png" }
+        { name: "10. Ngong Ping 360", description: `A cable car system offering spectacular views of the mountains, South China Sea, and Hong Kong International Airport.
+    This attraction costs: HK$313 (≈ $40)`,
+         image: "images/hongkong/Ngong-Ping.png" }
     ];
     createAttractionElements(container, "Hong Kong", attractions);
 }
