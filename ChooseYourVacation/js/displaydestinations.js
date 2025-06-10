@@ -32,7 +32,18 @@ function createAttractionElements(container, cityName, attractions, flightPrice)
     container.innerHTML = "";
 
 // Adding a round trip flight price to destination
-    mainHeader.textContent = `Choose Your Vacation - Round Trip to ${cityName} from US is around $${flightPrice}`;
+    const mainHeader = document.querySelector("header");
+    let existingPricePara = document.getElementById("flight-price-info");
+    if (existingPricePara) {
+        existingPricePara.remove();
+    }
+
+    const flightPricePara = document.createElement("p");
+    flightPricePara.id = "flight-price-info";
+    flightPricePara.textContent = `Round Trip to ${cityName} from US is around $${flightPrice}`;
+
+    const mainHeaderH1 = document.querySelector("header h1");
+    mainHeaderH1.after(flightPricePara);
     
     // Create a heading element (h2) with the city name
     const header = document.createElement("h2");
