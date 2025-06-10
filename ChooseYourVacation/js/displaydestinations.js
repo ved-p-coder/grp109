@@ -71,7 +71,7 @@ Created by: */
 function showParisAttractions() {
     const container = document.getElementById("attractions-container");
     const attractions = [
-        { name: "1. Eiffel Tower", description: "The iconic iron lattice tower on the Champ de Mars, built in 1889. It's one of the world's most recognizable landmarks and offers breathtaking views of Paris.", image: "images/paris/EiffelTower.png" },
+        { name: "1. Eiffel Tower", description: "The iconic iron lattice tower on the Champ de Mars, built in 1889. It's one of the world's most recognizable landmarks and offers breathtaking views of Paris.", image: "images/paris/EiffelTower.png<br>This attraction varies in price between Adults, Youth and Children<br>Adult prices: Second floor by stairs: £14.20 (≈ $16)<br>    Second floor with Lift: £22.60 (≈ $25) <br>     Top floor with Lift: £25.30 (≈ $28) <br> Youth (12-24 yrs old) and child (4-11 yrs old)price vary." },
         { name: "2. Louvre Museum", description: "The world's largest art museum and historic monument, home to thousands of works of art including the Mona Lisa and Venus de Milo.", image: "images/paris/Louvre.png" },
         { name: "3. Notre-Dame Cathedral", description: "A medieval Catholic cathedral known for its French Gothic architecture, beautiful rose windows, and flying buttresses.", image: "images/paris/Notre-Dame.png" },
         { name: "4. Arc de Triomphe", description: "A monumental arch honoring those who fought for France, offering panoramic views from the top and standing at the center of a star-shaped configuration of 12 radiating avenues.", image: "images/paris/Arc-De-Triomphe.png" },
