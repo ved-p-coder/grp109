@@ -125,7 +125,7 @@ function showParisAttractions() {
     This attraction costs: £17 (≈ $21)`,
          image: "images/paris/Centre-Pompidou.png" }
     ];
-    createAttractionElements(container, "Paris", attractions);
+    createAttractionElements(container, "Paris", attractions, flightPrice);
 }
 
 /* Displays New York attractions 
@@ -179,7 +179,7 @@ function showNewYorkAttractions() {
     This attraction costs: $34-$61`,
          image: "images/newyork/rockefellercenter.jpg" }
     ];
-    createAttractionElements(container, "New York", attractions);
+    createAttractionElements(container, "New York", attractions, flightPrice);
 }
 
 /* Displays Istanbul attractions 
@@ -230,7 +230,7 @@ function showIstanbulAttractions() {
     This attraction is FREE`,
          image: "images/istanbul/AllSaintsModaChurch.jpeg"}
     ];
-createAttractionElements(container, "Istanbul", attractions);
+createAttractionElements(container, "Istanbul", attractions, flightPrice);
 }
 
 /* Displays London attractions 
@@ -292,7 +292,7 @@ function showLondonAttractions() {
         Children: £8 (≈ $11)`, 
          image: "images/london/Tower-Bridge.png" }
     ];
-    createAttractionElements(container, "London", attractions);
+    createAttractionElements(container, "London", attractions, flightPrice);
 }
 
 /* Displays Hong Kong attractions 
@@ -343,5 +343,5 @@ function showHongKongAttractions() {
     This attraction costs: HK$313 (≈ $40)`,
          image: "images/hongkong/Ngong-Ping.png" }
     ];
-    createAttractionElements(container, "Hong Kong", attractions);
+    createAttractionElements(container, "Hong Kong", attractions, flightPrice);
 }
