@@ -11,48 +11,46 @@
   
 <body>
   <!-- Header section whichs contains the title and the navigation menu 
-  Created by: Will -->
+  Created by: Will and Ben -->
   <header>
     <h1>Choose Your Vacation</h1>
     <nav>
       <ul>
         <li><a href="home.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
         <li><a href="customize.html">Build Your Vacation</a></li>
-        <li><a href="saved.html">Saved Destinations</a></li>
         <li><a href="changelogs.html">Change Document</a></li>
         <li><a href="validator.html">Validator Tracker</a></li>
-        <li><a href="members.html">Members</a></li>
-        <li><a href = "cart.html">Cart</a></li>
+        <li><a href="cart.html">Cart</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- The main content area with the introduction and options to choose destinations 
-  Created by: -->
+  <!-- Intro banner with explore button
+  Created by: Ben-->
+  <section class="intro">
+    <div class="intro-content">
+      <h2>Explore Your Next Adventure</h2>
+      <p>Find your dream destination and start planning today.</p>
+      <a href="explore.html" class="button-link">Explore</a>
+    </div>
+  </section>
+
   <main>
-    <div class ="container">
-    <div id="intro">
-      <h2>Select Your Dream Destination</h2>
-      <p>Click on one of the destinations below to discover its top tourist attractions!</p>
-    </div>
-
-    <!-- Buttons for each destination, when clicked shows attractions based on destinations 
-    Created by: -->
-    <div id="destination-selection">
-      <div class="destination-buttons">
-        <button id="paris" class="destination-btn">Paris</button>
-        <button id="newyork" class="destination-btn">New York</button>
-        <button id="london" class="destination-btn">London</button>
-        <button id="istanbul" class="destination-btn">Istanbul</button>
-        <button id="hongkong" class="destination-btn">Hong Kong</button>
+  <!-- Member Dropdown Section -->
+  <section class="members-section">
+      <h2>Meet Our Team</h2>
+      <div class="dropdown-container">
+        <label for="member-select">Select a Member:</label>
+        <select id="member-select" onchange="location = this.value;">
+          <option value="">-- Select --</option>
+          <option value="ben.html">Ben</option>
+          <option value="lyv.html">Lyv</option>
+          <option value="ved.html">Ved</option>
+          <option value="will.html">Will</option>
+        </select>
       </div>
-    </div>
-
-    <div id="attractions-container">
-      <!-- Attractions will be displayed here by JavaScript -->
-    </div>
-    </div>
-
+    </section>
   </main>
 
   <!-- Footer section display our website name -->
@@ -60,7 +58,5 @@
     <p>Copyright @2025 Choose Your Vacation</p>
   </footer>
 
-  <!-- JavaScript to handle destination selection and displaying attractions-->
-  <script src="js/displaydestinations.js"></script>
 </body>
 </html>
