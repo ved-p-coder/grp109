@@ -44,6 +44,11 @@ document.addEventListener("DOMContentLoaded", function() {
     seoulButton.addEventListener("click", function() {
         showSeoulAttractions();
     });
+
+    cairoButton.addEventListener("click", function() {
+        showCairoAttractions();
+    });
+
 });
 
 // This function creates and displays a list of tourist attractions for a given city
