@@ -473,7 +473,49 @@ function showSeoulAttractions() {
         Child: 1,500₩ (≈ $1)`, 
          image: "images/seoul/GyeongPalace.jpg" },
 
-        
+        { name: "2. N Seoul Tower", description: `An iconic observation tower offering stunning views of Seoul’s skyline.
+    This attraction costs:
+        Adult: 21,000₩ (≈ $15)
+        Child: 13,000₩ (≈ $9)`, 
+         image: "images/seoul/NSeoulTower.jpg" },
+
+        { name: "3. Myeong-dong", description: `Seoul’s shopping mecca, filled with food, fashion, and souvenirs — free to explore!
+    This attraction is FREE`, 
+         image: "images/seoul/Myeong.jpg" },
+
+        { name: "4. Bukchon Hanok Village", description: `A charming neighborhood with traditional Korean houses, cafés, and art galleries.
+    This attraction is FREE`, 
+         image: "images/seoul/Bukchon.jpg" },
+
+        { name: "5. Changdeokgung Palace", description: `A beautiful, well-preserved Joseon dynasty palace recognized by UNESCO.
+    This attraction costs:
+        Adult: 3,000₩ (≈ $2)
+        Child: 1,500₩ (≈ $1)`, 
+         image: "images/seoul/ChangPalace.jpg" },
+
+        { name: "6. Lotte World", description: `A large amusement park with rides, a shopping complex, and an ice-skating rink.
+    This attraction costs:
+        Adult: 57,000₩ (≈ $40)
+        Child: 47,000₩ (≈ $33)`, 
+         image: "images/seoul/LotteWorld.jpg" },
+
+        { name: "7. Insadong", description: `A bustling neighborhood full of traditional Korean handicrafts, souvenirs, food, and teahouses.
+    This attraction is FREE`, 
+         image: "images/seoul/Insadong.jpg" },
+
+        { name: "8. Cheonggyecheon Stream", description: `A restored stream running through the heart of Seoul, a popular spot for a restful break!
+    This attraction is FREE`, 
+         image: "images/seoul/CheongStream.jpg" },
+
+        { name: "9. COEX Aquarium", description: `One of South Korea’s largest aquariums, home to over 40,000 creatures from 650 species.
+    This attraction costs:
+        Adult: 32,000₩ (≈ $23)
+        Child: 26,000₩ (≈ $18)`, 
+         image: "images/seoul/COEXAquarium.jpg" },
+
+        { name: "10. National Museum of Korea", description: `The largest museum in South Korea, featuring extensive Korean history and art.
+    This attraction is FREE`, 
+         image: "images/seoul/KoreaMuseum.jpg" }
     ];
     createAttractionElements(container, "Seoul", attractions, flightPrice);
 }
