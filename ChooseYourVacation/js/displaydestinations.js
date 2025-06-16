@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const dubaiButton = document.getElementById("dubai");
     const veniceButton = document.getElementById("venice");
     const seoulButton = document.getElementById("seoul");
+    const cairoButton = document.getElementById("cairo");
 
     parisButton.addEventListener("click", function() {
         showParisAttractions();
