@@ -8,6 +8,12 @@
   max-width: 800px;
 }
 
+.about-description-box h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.53m;
+  font-weight: bold;
+}
+
 main {
   padding: 20px;
 }
