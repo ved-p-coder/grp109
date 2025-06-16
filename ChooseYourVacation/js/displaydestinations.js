@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const hongkongButton = document.getElementById("hongkong");
     const istanbulButton = document.getElementById("istanbul");
     const romeButton = document.getElementById("rome");
+    const dubaiButton = document.getElementById("dubai");
+    const veniceButton = document.getElementById("venice");
+    const seoulButton = document.getElementById("seoul");
 
     parisButton.addEventListener("click", function() {
         showParisAttractions();
@@ -28,6 +31,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     romeButton.addEventListener("click", function() {
         showRomeAttractions();
+    });
+
+    dubaiButton.addEventListener("click", function() {
+        showDubaiAttractions();
+    });
+
+    veniceButton.addEventListener("click", function() {
+        showVeniceAttractions();
+    });
+
+    seoulButton.addEventListener("click", function() {
+        showSeoulAttractions();
     });
 });
 
