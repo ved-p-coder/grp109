@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const londonButton = document.getElementById("london");
     const hongkongButton = document.getElementById("hongkong");
     const istanbulButton = document.getElementById("istanbul");
+    const romeButton = document.getElementById("rome");
 
     parisButton.addEventListener("click", function() {
         showParisAttractions();
@@ -23,6 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     istanbulButton.addEventListener("click", function() {
         showIstanbulAttractions();
+    });
+
+    romeButton.addEventListener("click", function() {
+        showRomeAttractions();
     });
 });
 
@@ -344,4 +349,65 @@ function showHongKongAttractions() {
          image: "images/hongkong/Ngong-Ping.png" }
     ];
     createAttractionElements(container, "Hong Kong", attractions, flightPrice);
+}
+
+/* Displays Rome attractions 
+Created by: Ben */
+function showRomeAttractions() {
+    const container = document.getElementById("attractions-container");
+    const flightPrice = "1,500" // Rome flight price
+    const attractions = [
+        { name: "1. Colosseum", description: `An iconic Roman amphitheater, famous for its ancient gladiator battles and rich history.
+    This attraction costs:
+        Adult: €18 (≈ $20)
+        Child: FREE`, 
+         image: "images/rome/Colosseum-Rome.jpg" },
+
+        { name: "2. Trevi Fountain", description: `A popular fountain, renowned for its tradition of tossing coins for luck and making wishes.
+    This attraction is FREE`, 
+         image: "images/rome/TreviFountain-Rome.jpg" },
+
+        { name: "3. Pantheon", description: `A well-preserved Roman Temple, recognized for its impressive dome and classical architecture.
+    This attraction is FREE`, 
+         image: "images/rome/Pantheon-Rome.jpg" },
+
+        { name: "4. St. Peter's Basilica", description: `A majestic church, famous for its grand art, Michelangelo’s dome, and rich religious significance.
+    This attraction costs:
+        Adult: €10 (≈ $11)
+        Child: €5 (≈ $5.50)`, 
+         image: "images/rome/PeterBasilica-Rome.jpg" },
+
+        { name: "5. Sistine Chapel", description: `A renowned chapel within the Vatican, celebrated for Michelangelo’s breathtaking ceiling.
+    This attraction costs:
+        Adult: €17 (≈ $19)
+        Child: €8 (≈ $9)`, 
+         image: "images/rome/SistineChapel-Rome.jpg" },
+
+        { name: "6. Roman Forum", description: `An ancient civic space, filled with ruins and stories from the heart of the Roman Empire.
+    This attraction costs:
+        Adult: €18 (≈ $20)
+        Child: FREE`, 
+         image: "images/rome/RomanForum-Rome.jpg" },
+
+        { name: "7. Piazza Navona", description: `A charming square, popular for its beautiful fountains, cafés, and bustling atmosphere.
+    This attraction is FREE`, 
+         image: "images/rome/PiazzaNavona-Rome.jpg" },
+
+        { name: "8. Spanish Steps", description: `An iconic staircase, well-loved by tourists for its romantic views and stylish setting.
+    This attraction is FREE`, 
+         image: "images/rome/SpanishSteps-Rome.jpg" },
+
+        { name: "9. Castle Sant’Angelo", description: `A historic fortress, known for its strong defensive structures and panoramic views of the city.
+    This attraction costs:
+        Adult: €15 (≈ $17)
+        Child: FREE`, 
+         image: "images/rome/CastleSant-Rome.jpg" },
+
+        { name: "10. Galleria Borghese", description: `A renowned art gallery, famous for its impressive collection of sculptures, paintings, and masterpieces.
+    This attraction costs:
+        Adult: €13 (≈ $15)
+        Child: FREE`, 
+         image: "images/rome/Galleria Borghese-Rome.jpg" }
+    ];
+    createAttractionElements(container, "Rome", attractions, flightPrice);
 }
