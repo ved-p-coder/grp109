@@ -426,3 +426,54 @@ function showRomeAttractions() {
     ];
     createAttractionElements(container, "Rome", attractions, flightPrice);
 }
+
+/* Displays Dubai attractions 
+Created by: */
+function showDubaiAttractions() {
+    const container = document.getElementById("attractions-container");
+    const flightPrice = "0000" // Dubai flight price
+    const attractions = [
+        { name: "1. Dubai Place one", description: `Description.
+    This attraction costs:
+        Adult: $$
+        Child: $$)`, 
+         image: "images/dubai/something.jpg" },
+
+        
+    ];
+    createAttractionElements(container, "Dubai", attractions, flightPrice);
+}
+
+/* Displays Venice attractions 
+Created by: */
+function showVeniceAttractions() {
+    const container = document.getElementById("attractions-container");
+    const flightPrice = "0000" // Venice flight price
+    const attractions = [
+        { name: "1. Venice Place one", description: `Description.
+    This attraction costs:
+        Adult: $$
+        Child: $$)`, 
+         image: "images/venice/something.jpg" },
+
+        
+    ];
+    createAttractionElements(container, "Venice", attractions, flightPrice);
+}
+
+/* Displays Seoul attractions 
+Created by: Ben */
+function showSeoulAttractions() {
+    const container = document.getElementById("attractions-container");
+    const flightPrice = "830" // Seoul flight price
+    const attractions = [
+        { name: "1. Gyeongbokgung Palace", description: `A majestic Joseon dynasty palace, famous for its rich history and beautiful architecture.
+    This attraction costs:
+        Adult: 3,000₩ (≈ $2)
+        Child: 1,500₩ (≈ $1)`, 
+         image: "images/seoul/GyeongPalace.jpg" },
+
+        
+    ];
+    createAttractionElements(container, "Seoul", attractions, flightPrice);
+}
