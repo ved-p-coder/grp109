@@ -491,7 +491,7 @@ function showDubaiAttractions() {
 
         { name: "10. Al Fahidi Historical District", description: `Immerse yourself in traditional Emirati culture, heritage houses, cafés, art galleries, and a rich history.
     This attraction is FREE`, 
-         image: "images/dubai/AlFahidi.jpg" }
+         image: "images/dubai/AlFahidi.png" }
 
         
 
