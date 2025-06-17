@@ -501,18 +501,72 @@ function showDubaiAttractions() {
 }
 
 /* Displays Venice attractions 
-Created by: */
+Created by: Lyv */
 function showVeniceAttractions() {
     const container = document.getElementById("attractions-container");
-    const flightPrice = "000" // Venice flight price
+    const flightPrice = "1,200" // Venice flight price
     const attractions = [
-        { name: "1. Venice Place one", description: `Description.
+        { name: "1. St. Mark's Basilica", description: `It is famous for its Byzantine architecture, intricate mosaics, and its status as the final resting place of Saint Mark's relics. It is also renowned for its opulent interior and stunning golden mosaics.
     This attraction costs:
-        Adult: $$
-        Child: $$)`, 
-         image: "images/venice/something.jpg" },
+        Adult: £6 (≈ $7)
+        Child: Free for children 6 yrs and under)`, 
+         image: "https://venicelover.com/images/san-marco-basilica-venice.jpg" },
 
-        
+        { name: "2. Piazza San Marco", description: `Piazza San Marco is the city's main public square and contains its most famous buildings such as St Mark's Basilica and the Doge's Palace. It is also in the heart of Venice. 
+    This attraction is free to enter`,
+         image: "https://venicelover.com/images/saint-marks-square.jpg" },
+
+        { name: "3. Doge's Palace", description: `The Doge's Palace (Palazzo Ducale) in Venice is a masterpiece of Venetian Gothic architecture and a symbol of the city's power and history. 
+    This attraction costs:
+        Adult: £30 (≈ $35)
+        Youth: £15 (≈ $17)
+        Senior: £15 (≈ $17)`,
+        image: "https://venicelover.com/images/dogespalace_tickets.jpg" },
+
+        {name: "4. Canal Grande & Rialto Bridge", description: `The Grand Canal is Venice's main thoroughfare, a winding waterway that snakes through the city in an S-shape. The Rialto Bridge, a single-arch stone bridge designed by Antonio da Ponte, is the oldest and most famous bridge spanning the Grand Canal.
+    This attraction costs: 
+        Gondala: £34 (≈ $39)
+        Motorboat: £39 (≈ $45)`,
+         image: "https://venicelover.com/images/canal_grande_venice.jpg" },
+
+        { name: "5. Teatro La Fenice, Opera house", description: `Teatro La Fenice, meaning "The Phoenix" in Italian, is a historic opera house in Venice, Italy, renowned for its significance in Italian theatre and opera. It's known for its neoclassical design, opulent interiors, and the numerous premieres of famous operas that have taken place within its walls.
+    This attraction costs:
+        Tickets range between £99-£200 for a show (≈ $-$)
+        Guided Tour: £12 (≈ $14)
+        Students & Seniors: £9.20 (≈ $11)`,
+         image: "https://venicelover.com/images/teatro_la_fenice_venice.jpg" },
+
+        { name: "6. Murano, Burano & Torcello Tours", description: `Murano, Burano, and Torcello are three islands in the Venetian Lagoon, each offering unique attractions, and are often visited as part of a day trip from Venice. Murano is famous for its glassblowing, Burano for its colorful houses and lace.
+    This attraction costs:
+        Adults: £24 (≈ $28)`,
+         image: "https://venicelover.com/images/burano-venice.jpg" },
+
+        { name: "7.Peggy Guggenheim Collection", description: `The Peggy Guggenheim Collection is a prominent museum of 20th-century art located in Venice, Italy, housed in Peggy Guggenheim's former home, Palazzo Venier dei Leoni.
+    This attraction costs:
+        Tickets: £18.50 (≈ $21)
+        Students up to 26: £11.50 (≈ $13)
+        Seniors (65 and up): £16.50 (≈ $19)
+        Children 10 and under is FREE `,
+         image: "https://venicelover.com/images/peggy-guggenheim.jpg" },
+
+        { name: "8. Campanile di San Marco", description: `The Campanile di San Marco, or St. Mark's Campanile, is a prominent bell tower in St. Mark's Square in Venice, Italy. Standing at 98.6 meters (324 feet) tall, it's the tallest structure in Venice and a recognizable symbol of the city.
+    This attraction costs: 
+        Adult: £17 (≈ $20)
+        Children 6 and under are FREE`,
+         image: "https://venicelover.com/images/bell-tower-venice.jpg" }, 
+
+        { name: "9. Cannaregio & Jewish Ghetto", description: `Cannaregio is a residential district in Venice known for its quiet atmosphere and the Jewish Ghetto, the oldest in the world.
+    This attraction costs:
+        Guided Tour: £85 (≈ $98)
+        Walking Tour: £352.41 (≈ $404)`,
+         image: "https://venicelover.com/images/cannaregio-venice.jpg" },
+
+        { name: "10. Scuola Grande di San Rocco", description: `The Scuola Grande di San Rocco in Venice is a grand building renowned for its stunning collection of Tintoretto paintings. It served as the headquarters for a charitable confraternity and is a prime example of Venetian Renaissance architecture and art.
+    This attraction costs: 
+        Adult: £10 (≈ $12)
+        Youth (26 and under): £8 (≈ $9)
+        Senior (65 and up): £8 (≈ $9)`,
+         image: "https://venicelover.com/images/scuola-grande-di-san-rocco_venice.jpg" },
     ];
     createAttractionElements(container, "Venice", attractions, flightPrice);
 }
