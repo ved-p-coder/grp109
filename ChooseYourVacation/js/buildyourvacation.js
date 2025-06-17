@@ -1,10 +1,12 @@
 const destinations = [
             { place: "Paris, France", recreation1: "river", recreation2: "museum", landmark: "palace", climate: "warm"},
             { place: "New York, USA", recreation1: "park", recreation2: "theater", landmark: "bridge", climate: "cool"},
-            { place: "New York, USA", recreation1: "park", recreation2: "theater", landmark: "statue", climate: "cool"},
+            { place: "New York, USA", recreation1: "park", recreation2: "theater", landmark: "statue", climate: "cool"}, //alt New York
             { place: "London, England", recreation1: "museum", recreation2: "amusement", landmark: "palace", climate: "cool"},
             { place: "Istanbul, Turkey", recreation1: "park", recreation2: "--", landmark: "church", climate: "warm"},
             { place: "Hong Kong, China", recreation1: "hiking", recreation2: "amusement", landmark: "statue", climate: "warm"},
+	    { place: "Rome, Italy", recreation1: "theater", recreation2: "museum", landmark: "fountain", climate: "warm"},
+	    {place: "Dubai, UAE", recreation1: "amusement", recreation2: "amusement", landmark: "market", climate: "warm"},
         ];
 
 /* Allows the form to actually be submitted */
