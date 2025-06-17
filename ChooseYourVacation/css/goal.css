@@ -10,3 +10,14 @@
   font-size: 36px;
   display: block;
   background-color: #efefef;}
+
+body {
+  padding-top: 80px;
+  margin: 0;}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;}
