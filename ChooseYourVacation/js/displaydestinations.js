@@ -434,16 +434,66 @@ function showRomeAttractions() {
 }
 
 /* Displays Dubai attractions 
-Created by: */
+Created by: Ben */
 function showDubaiAttractions() {
     const container = document.getElementById("attractions-container");
-    const flightPrice = "0000" // Dubai flight price
+    const flightPrice = "800" // Dubai flight price
     const attractions = [
-        { name: "1. Dubai Place one", description: `Description.
+        { name: "1. Burj Khalifa", description: `The world’s tallest building with stunning views from its observation deck.
     This attraction costs:
-        Adult: $$
-        Child: $$)`, 
-         image: "images/dubai/something.jpg" },
+        Adult: AED 169 (≈ $47)
+        Child: AED 134 (≈ $37)`, 
+         image: "images/dubai/BurjKhalifa.jpg" },
+
+        { name: "2. The Dubai Mall", description: `One of the world’s largest shopping malls, featuring an ice rink, cinema, and an aquarium.
+    This attraction is FREE`, 
+         image: "images/dubai/DubaiMall.jpg" },
+
+        { name: "3. Palm Jumeirah", description: `A famous man-made island filled with hotels, restaurants, and entertainment.
+    This attraction is FREE`, 
+         image: "images/dubai/PalmJumeirah.jpg" },
+
+        { name: "4. Desert Safari", description: `An exhilarating ride over sand dunes, camel rides, dinner, and shows under the stars.
+    This attraction costs:
+        Adult: AED 250 (≈ $68)
+        Child: AED 200 (≈ $54)`, 
+         image: "images/dubai/DesertSafari.jpg" },
+
+        { name: "5. Dubai Frame", description: `A huge picture frame-shaped attraction offering views of Old and New Dubai.
+    This attraction costs:
+        Adult: AED 50 (≈ $14)
+        Child: AED 20 (≈ $5)`, 
+         image: "images/dubai/DubaiFrame.jpg" },
+
+        { name: "6. Miracle Garden", description: `The world’s largest flower garden, featuring over 150 million flowers in creative displays.
+    This attraction costs:
+        Adult: AED 55 (≈ $15)
+        Child: AED 40 (≈ $11)`, 
+         image: "images/dubai/MiracleGarden.jpg" },
+
+        { name: "7. Global Village", description: `A cultural park featuring food, shows, and products from over 90 countries.
+    This attraction costs:
+        Adult: AED 20 (≈ $5)
+        Child: AED 20 (≈ $5)`, 
+         image: "images/dubai/GlobalVillage.jpg" },
+
+        { name: "8. Ski Dubai", description: `Indoor ski slope with snowboarding, penguin encounters, and tube rides, a unique experience in the desert!
+    This attraction costs:
+        Adult: AED 220 (≈ $60)
+        Child: AED 160 (≈ $44)`, 
+         image: "images/dubai/SkiDubai.jpg" },
+
+        { name: "9. Atlantis, The Palm", description: `A huge water park with water slides, a private beach, and a chance to see sharks and rays.
+    This attraction costs:
+        Adult: AED 299 (≈ $82)
+        Child: AED 299 (≈ $82)`, 
+         image: "images/dubai/AtlantisPalm.jpg" },
+
+        { name: "10. Al Fahidi Historical District", description: `Immerse yourself in traditional Emirati culture, heritage houses, cafés, art galleries, and a rich history.
+    This attraction is FREE`, 
+         image: "images/dubai/AlFahidi.jpg" }
+
+        
 
         
     ];
@@ -454,7 +504,7 @@ function showDubaiAttractions() {
 Created by: */
 function showVeniceAttractions() {
     const container = document.getElementById("attractions-container");
-    const flightPrice = "0000" // Venice flight price
+    const flightPrice = "000" // Venice flight price
     const attractions = [
         { name: "1. Venice Place one", description: `Description.
     This attraction costs:
