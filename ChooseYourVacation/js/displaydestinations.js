@@ -529,6 +529,7 @@ function showSeoulAttractions() {
 /* Displays Cairo attractions 
 Created by: Ved Patel */
 function showCairoAttractions() {
+    console.log("Cairo attractions function is being called"); // Debugging line
     const container = document.getElementById("attractions-container");
     const flightPrice = "1,415" //Cairo Flight Expense
     const attractions = [
