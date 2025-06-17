@@ -6,7 +6,7 @@ const destinations = [
             { place: "Istanbul, Turkey", recreation1: "park", recreation2: "--", landmark: "church", climate: "warm"},
             { place: "Hong Kong, China", recreation1: "hiking", recreation2: "amusement", landmark: "statue", climate: "warm"},
 	    { place: "Rome, Italy", recreation1: "theater", recreation2: "museum", landmark: "fountain", climate: "warm"},
-	    {place: "Dubai, UAE", recreation1: "amusement", recreation2: "amusement", landmark: "market", climate: "warm"},
+	    {place: "Dubai, UAE", recreation1: "amusement", recreation2: "--", landmark: "market", climate: "warm"},
         ];
 
 /* Allows the form to actually be submitted */
