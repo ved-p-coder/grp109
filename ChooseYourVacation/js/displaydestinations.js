@@ -584,43 +584,43 @@ function showCairoAttractions() {
     const attractions = [
         { name: "1. Pyramid of Giza", description: `The Great Pyramid, Sphinx, and surrounding pyramids make this Egypt’s most iconic site. You can explore the desert plateau and enter select pyramids.
         This attraction costs: $4.75(Foreigners) and $1.19(Locals)`,
-         image:"" },
+         image:"images/cairo/Pyramid-of-Giza.png" },
         
         { name: "2. Egyptian Museum", description: `Located in Tahrir Square, this museum holds thousands of artifacts, including King Tutankhamun’s golden mask and royal mummies.
     This attraction costs: $3.96(Foreigners) and $0.59(Locals)`, 
-         image: "" },
+         image: "images/cairo/Egyptian-Museum.png" },
         
         { name: "3. Cairo Citadel", description: `A large medieval fortress with sweeping views of Cairo, housing the Mosque of Muhammad Ali and several museums.
     This attraction costs: $3.57(Foreigners) and $0.59(Locals)`, 
-         image: "" },
+         image: "images/cairo/Cairo-Citadel.png" },
         
         { name: "4. Al-Azhar Mosque", description: `One of the world’s oldest Islamic universities, featuring stunning minarets and a peaceful courtyard.
     This attraction is FREE for everyone to visit`, 
-         image: "" },
+         image: "images/cairo/Al-Azhar-Mosque.png" },
         
         { name: "5. Khan El-Khalili Bazaar", description: `Historic marketplace filled with souvenirs, spices, silver, lamps, and traditional cafes like El Fishawy.
     This attraction is FREE for everyone to visit`, 
-         image: "" },
+         image: "images/cairo/Khan-El-Khalili-Bazaar.png" },
         
         { name: "6. Coptic Cairo", description: `This area features ancient Christian churches like the Hanging Church and the Coptic Museum, showcasing Egypt’s early Christian heritage.
     This attraction is FREE for everyone to visit except the mueseum costs $1.98 to enter`, 
-         image: "" },
+         image: "images/cairo/Coptic-Cairo.png" },
         
         { name: "7. Al-Muizz Street", description: `A pedestrian street lined with medieval mosques and palaces, known for its rich Islamic architecture.
     It is FREE to walk around but some sites cost $1.98`, 
-         image: "" },
+         image: "images/cairo/Al-Muizz-Street.png" },
         
         { name: "8. Manial Palace", description: `A hidden gem combining Ottoman and Moorish design, with beautiful gardens and royal exhibits.
     This attraction costs: $1.98(Foreigners) and $0.20(Locals)`, 
-         image: "" },
+         image: "images/cairo/Manial-Palace.png" },
         
         { name: "9. National Museum of Egyptian Civilization (NMEC)", description: `A modern museum featuring pharaonic artifacts and the famous Royal Mummies Hall. 
     This attraction costs: $4.75(Foreigners) and $1.19(Locals)`, 
-         image: "" },
+         image: "images/cairo/NMEC.png" },
         
         { name: "10. Nilometer", description: `An ancient Nile-level measuring system from the 9th century, located on Roda Island.
     This attraction costs: $1.19(Foreigners) and $0.20(Locals)`,
-         image: "" }
+         image: "images/cairo/Nilometer.png" }
     ];
     createAttractionElements(container, "Cairo", attractions, flightPrice);
 }
