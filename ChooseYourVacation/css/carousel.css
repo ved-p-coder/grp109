@@ -33,6 +33,17 @@
   border-radius: 6px;
 }
 
+#slideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  transition: opacity 0.5s ease-in-out;
+}
+
 #caption {
   text-align: center;
   padding: 12px 10px;
