@@ -68,7 +68,7 @@ function back() {
 //function to update countdown and trigger image change
 function updateCountdown () {
   currentCountdown--;
-  timerDisplay.textContent = currentCountdown;
+  timerDisplay.textContent = "Countdown: " + currentCountdown + "s";
 
   if (currentCountdown <= 0) {
     clearInterval(timerInterval); //stop current countdown
@@ -80,7 +80,7 @@ function updateCountdown () {
 function startTimer () {
   clearInterval(timerInterval)
   currentCountdown = SLIDESHOW_DURATION;
-  timerDisplay.textContent = currentCountdown;
+  timerDisplay.textContent = "Countdown: " + currentCountdown + "s";
   timerInterval = setInterval(updateCountdown, 1000);
 }
 
@@ -91,7 +91,7 @@ function resetTimer () {
     startTimer();
   } else {
     currentCountdown = SLIDESHOW_DURATION;
-    timerDisplay.textContent = currentCountdown;
+    timerDisplay.textContent = "Countdown: " + currentCountdown + "s";
   }
 }
 
@@ -102,7 +102,7 @@ function autoSlide () {
   } else {
     clearInterval(timerInterval);
     currentCountdown = SLIDESHOW_DURATION;
-    timerDisplay.textContent = currentCountdown;
+    timerDisplay.textContent = "Countdown: " + currentCountdown + "s";
   }
 }
 
