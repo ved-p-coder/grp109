@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" type="text/css" href="css/stylecustomize.css">
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/en/face/work-sans" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/carousel.css">
   <title>Choose Your Vacation</title>
 </head>
   
@@ -27,6 +28,26 @@
       </ul>
     </nav>
   </header>
+
+    <section class = "carousel-section">
+      <h2>Vacation Inspirations</h2>
+      <div id = "timerDisplay"></div>
+      <div id = "slideshow-wrapper">
+        <label>
+          <input id = "auto" type="checkbox" checked> Run Automatically
+        </label>
+        <br><br>
+
+        <div id = "slideshow-container">
+          <img id = "slideshow" src ="" alt="">
+          <p id = "caption"></p>
+          <div class = "buttons-container">
+            <button id = "previous">PREVIOUS</button>
+            <button id = ""next">NEXT</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
    <main class="container">
       <section class="vacation-form">
@@ -95,8 +116,11 @@
    </main>
       
       <footer>
-    <p>Copyright @2025 Choose Your Vacation</p>
-  </footer>
-  <script src="js/buildyourvacation.js"></script>
+        <p>Copyright @2025 Choose Your Vacation</p>
+      </footer>
+    
+     <script src="js/buildyourvacation.js"></script>
+     <script src = "js/carousel.js"></script>
+    
   </body>
 </html>
