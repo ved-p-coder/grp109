@@ -1,6 +1,6 @@
 var myImages = [
   "images/city/paris.jpg",
-  "images/city/newyork.jpg",
+  "images/city/newyork2.jpg",
   "images/city/london.jpg",
   "images/city/istanbul.jpg",
   "images/city/hongkong.jpg",
@@ -8,7 +8,7 @@ var myImages = [
   "images/city/dubai.jpg",
   "images/city/venice.jpg",
   "images/city/seoul.jpg",
-  "images/city/cairo.jpg"
+  "images/city/cairo2.jpg"
   ];
 
 var captionImages = [
