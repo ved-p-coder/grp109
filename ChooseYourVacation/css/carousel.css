@@ -40,6 +40,7 @@
   color: #444;
   background-color: #f0f0f0;
   border-top: 1px solid #e5e5e5;
+  margin-top: 15px;
   margin-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -53,4 +54,16 @@
 
 .buttons-container button {
   display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  min-width: 120px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
