@@ -11,7 +11,7 @@ var myImages = [
   "images/city/cairo.jpg"
   ];
 
-var captionImage = [
+var captionImages = [
   "Enjoy iconic landmarks in Paris",
   "Explore New York City",
   "Walk through Londons rich history",
@@ -50,7 +50,7 @@ function next() {
   if (myImages.length === index + 1) {
     index = 0; // loop back to the first image if at the end
   } else {
-    index +++;
+    index ++;
   }
   updateImage(); // updates image and resets timer
 }
