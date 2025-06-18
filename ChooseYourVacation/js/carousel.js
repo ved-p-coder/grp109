@@ -112,4 +112,4 @@ nextButton.addEventListener("click", next, false);
 autoCheckbox.addEventListener("change", autoSlide, false);
 
 updateImage();
-autoslide();
+autoSlide();
