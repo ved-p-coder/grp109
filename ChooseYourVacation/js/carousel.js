@@ -40,7 +40,7 @@ var autoCheckbox = document.getElementById("auto");
 // function to update the displayed image and caption
 function updateImage (){
   slideshowImage.src = myImages[index];
-  slideshowImage.alt = captionImage[index];
+  slideshowImage.alt = captionImages[index];
   captionParagraph.textContent = captionImages[index];
   resetTimer(); // resets the timer whenever the image updates
 }
