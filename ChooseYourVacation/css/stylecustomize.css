@@ -57,6 +57,7 @@ Created by: Ben */
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  padding-bottom: 60px;
 }
 
 /* Styling of the form box
@@ -147,7 +148,6 @@ Created by: Ben */
   color: #0041ab;
   margin-bottom: 0.5rem;
 }
-
 
 footer {
     border: solid 1px;
