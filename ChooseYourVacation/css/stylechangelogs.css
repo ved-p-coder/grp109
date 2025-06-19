@@ -56,6 +56,12 @@ Created by: Ben */
   margin-right: 4px;
 }
 
+/* Adds a background box around the text for better visibility */
+.ben-log p {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+}
+
 /* Lyv's member log styling 
 Created by: Lyv */
 .lyv-log {
@@ -70,10 +76,15 @@ Created by: Lyv */
   margin-right: 4px;
 }
 
+/* Adds a background box around the text for better visibility */
+.lyv-log p {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+}
+
 /* Ved's member log styling 
 Created by: Ved */
 .ved-log {
-  color: white;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0a/Madoogali_from_terrace.jpg");
   background-size: cover;
   background-position: center;
@@ -84,10 +95,15 @@ Created by: Ved */
   margin-right: 4px;
 }
 
+/* Adds a background box around the text for better visibility */
+.ved-log p {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+}
+
 /* Will's member log styling 
 Created by: Will */
 .will-log {
-  color: white;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0SiMLKWcVMG7I1N2Aiq6-EkNbjPa_2pcWVw&s");
   background-size: cover;
   background-position: center;
@@ -96,4 +112,10 @@ Created by: Will */
   margin-bottom: 10px;
   margin-left: 4px;
   margin-right: 4px;
+}
+
+/* Adds a background box around the text for better visibility */
+.will-log p {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
 }
