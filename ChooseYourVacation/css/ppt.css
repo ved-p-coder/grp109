@@ -1,0 +1,41 @@
+.powerpoint-wrapper {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.powerpoint-title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.powerpoint-author {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.powerpoint-iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.powerpoint-iframe-container iframe {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: 569px;
+}
+
+
+
