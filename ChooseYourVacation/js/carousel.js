@@ -24,10 +24,14 @@ var captionImages = [
   "Tour the great Ciaro and fall in love with its ancient landmarks"
   ];
 
+// Adds sound effects to the left and right buttons
+var leftSound = document.getElementById("leftSound");
+var rightSound = document.getElementById("rightSound");
+
 var index = 0;
 var timerInterval; // to store ID for clearing
-var currentCountdown = 4; // countdown value
-const SLIDESHOW_DURATION = 4;
+var currentCountdown = 3; // countdown value
+const SLIDESHOW_DURATION = 3;
 
 // get elements
 var slideshowImage = document.getElementById("slideshow");
@@ -47,6 +51,8 @@ function updateImage (){
 
 //function to advance to next image
 function next() {
+  rightSound.play(); // Plays sound when next() is triggered
+  
   if (myImages.length === index + 1) {
     index = 0; // loop back to the first image if at the end
   } else {
@@ -57,6 +63,8 @@ function next() {
 
 // function to go back to the previous image
 function back() {
+  leftSound.play(); // Plays sound when back() is triggered
+  
   if (index === 0) {
     index = myImages.length - 1; // loops to the last image
   } else {
