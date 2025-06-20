@@ -4,13 +4,13 @@
   margin: 20px auto;
   border-radius: 8px;
   background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 800px;
 }
 
 .about-description-box h3 {
   margin-top: 1.5em;
-  margin-bottom: 0.53m;
+  margin-bottom: 0.53em;
   font-weight: bold;
 }
 
@@ -39,6 +39,7 @@ main {
 }
 .button-link:hover {
   background-color: #3a56d4;
+  color: #ffffff;
 }
 
 
