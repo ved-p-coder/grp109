@@ -32,7 +32,6 @@
 
     <section class = "carousel-section">
       <h2>Vacation Inspirations</h2>
-      <div id = "timerDisplay"></div>
       <div id = "slideshow-wrapper">
         <label>
           <input id = "auto" type="checkbox" checked> Run Automatically
@@ -42,6 +41,7 @@
         <div id = "slideshow-container">
           <img id = "slideshow" src ="images/city/paris.jpg" alt="paris">
         </div>
+        <div id = "timerDisplay"></div>
         <p id = "caption"></p>
         <div class = "buttons-container">
           <button id = "previous">PREVIOUS</button>
@@ -124,6 +124,11 @@
     
      <script src="js/buildyourvacation.js"></script>
      <script src="js/carousel.js"></script>
+
+    <!-- Import audio files for sound effects 
+    Created by: Ben -->
+    <audio id="leftSound" src="audio/leftSound.wav" preload="auto"></audio>
+    <audio id="rightSound" src="audio/rightSound.wav" preload="auto"></audio>
     
   </body>
 </html>
