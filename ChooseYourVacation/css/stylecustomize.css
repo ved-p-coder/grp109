@@ -1,63 +1,5 @@
-/* Main font for entire page
-Created by: Ben */
-body {
-    font-family: WorkSansRegular;
-    padding-bottom: 50px;
-}
-
-/* Styling of header
-Created by: Ben */
-header {
-    background-color: #0041ab;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-/* Styling of header title
-Created by: Ben */
-header h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  padding: 1rem 0;
-}
-
 h2 {
     text-align: center;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: 1rem;
-}
-
-/* Styling of nav links
-Created by: Ben */
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 1rem 1.5rem;
-  border-radius: 4px;
-  transition: background 0.3s;
-}
-
-/* Change nav background on hover/active
-Created by: Ben */
-nav a:hover, nav  a.active {
-    background-color: #3a56d4;
-}
-
-/* Center and size content
-Created by: Ben */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  padding-bottom: 60px;
 }
 
 /* Styling of the form box
@@ -82,23 +24,6 @@ Created by: Ben */
 Created by: Ben */
 .form-group {
   margin-bottom: 1.5rem;
-}
-
-/* Styling of dropdown menu
-Created by: Ben */
-select {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid #adb5bd;
-  font-size: 1rem;
-  transition: border 0.3s, box-shadow 0.3s;
-}
-
-/* Highlight dropdown when selected
-Created by: Ben */
-select:focus {
-  outline: none;
-  border-color: #4361ee;
 }
 
 /* Styling the generate button
@@ -148,22 +73,3 @@ Created by: Ben */
   color: #0041ab;
   margin-bottom: 0.5rem;
 }
-
-footer {
-    border: solid 1px;
-    padding: 10px;
-    margin: 10px 0 0 0;
-    background-color: #0041ab;
-    color: white;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    box-sizing: border-box;
-}
-
-footer p {
-    line-height: 1.5;
-}
-    
