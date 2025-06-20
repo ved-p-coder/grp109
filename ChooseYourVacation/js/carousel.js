@@ -1,4 +1,5 @@
-var myImages = [
+document.addEventListener('DOMContentLoaded', function() {
+  var myImages = [
   "images/city/paris.jpg",
   "images/city/newyork2.jpg",
   "images/city/london.jpg",
@@ -123,3 +124,5 @@ autoCheckbox.addEventListener("change", autoSlide, false);
 
 updateImage();
 autoSlide();
+
+});
