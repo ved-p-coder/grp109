@@ -106,15 +106,9 @@ Created by: Ben */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-.developer-box h2 {
-  font-size: 2rem;
-  color: #0041ab;
-}
-
 .developer-box p {
   font-size: 2rem;
 }
-
 
 #name-scroll {
   font-size: 2rem;
