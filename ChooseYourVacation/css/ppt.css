@@ -1,3 +1,5 @@
+
+
 .powerpoint-wrapper {
   max-width: 1000px;
   margin: 20px auto;
@@ -34,7 +36,7 @@
   height: auto;
   aspect-ratio: 16/9;
   width: 100%;
-  height: 569px;
+ /* height: 569px; */
 }
 
 iframe {
