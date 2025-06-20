@@ -37,5 +37,9 @@
   height: 569px;
 }
 
+iframe {
+  border: none;
+}
+
 
 
