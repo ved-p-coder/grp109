@@ -97,4 +97,33 @@ footer p {
 p {
     line-height: 1.5;
 }
+
+/* Global link styles */
+a {
+  color: #0041ab;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #66bfff;
+  
+}
+
+a:visited {
+  color: #8b3dff;
+}
+
+/* Links blink */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+/* Apply blink after 2s hover */
+a:hover {
+  animation: blink 1s infinite;
+  animation-delay: 2s;
+  color: #66bfff;
+}
     
