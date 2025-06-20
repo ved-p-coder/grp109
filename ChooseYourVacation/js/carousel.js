@@ -51,6 +51,7 @@ function updateImage (){
 
 //function to advance to next image
 function next() {
+  rightSound.currentTime = 0;
   rightSound.play(); // Plays sound when next() is triggered
   
   if (myImages.length === index + 1) {
@@ -63,6 +64,7 @@ function next() {
 
 // function to go back to the previous image
 function back() {
+  leftSound.currentTime = 0;
   leftSound.play(); // Plays sound when back() is triggered
   
   if (index === 0) {
