@@ -100,14 +100,15 @@ p {
 
 /* Global link styles */
 a {
-  color: #0041ab;
+  color: white;
   text-decoration: none;
+  text-align: center;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #66bfff;
-  
+  background-color: #66bfff;
+  color: white;
 }
 
 a:visited {
