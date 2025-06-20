@@ -67,7 +67,7 @@
   display: inline-block;
   background-color: #6c757d;
   color: white;
-  padding: 10px 25px;
+  padding: 12px 25px;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -75,6 +75,7 @@
   margin: 0 10px;
   transition: background-color 0.3s ease, transform 0.2s ease;
   min-width: 120px;
+  min-height: 44px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
