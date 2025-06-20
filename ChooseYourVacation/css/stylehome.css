@@ -35,14 +35,16 @@ Created by: Ben */
 }
 
 
-/* Members section styling */
+/* Styling on main content */
 main {
   padding: 2rem;
+  text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;  
 }
 
+/* Members section styling */
 .members-section {
   background-color: #ffffff;
   padding: 2rem;
@@ -89,4 +91,33 @@ main {
   margin: 0.5rem 0 0 0;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+/* Developer box styling 
+Created by: Ben */
+.developer-box {
+  border: 10px solid #0041ab;
+  background-color: #e6f0ff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.developer-box h2 {
+  font-size: 2rem;
+  color: #0041ab;
+}
+
+.developer-box p {
+  font-size: 2rem;
+}
+
+
+#name-scroll {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0041ab;
 }
