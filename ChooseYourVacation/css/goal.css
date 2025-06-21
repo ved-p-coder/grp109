@@ -7,3 +7,11 @@ body {
   margin-right: auto;
   padding: 20px;
   text-align: center;}
+
+.goal-description {
+  text-align: center;
+}
+
+.project-completion-statement {
+  text-align: center;
+}
