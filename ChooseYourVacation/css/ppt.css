@@ -1,5 +1,3 @@
-
-
 .powerpoint-wrapper {
   max-width: 1000px;
   margin: 20px auto;
@@ -13,22 +11,22 @@
 .powerpoint-title {
   font-size: 2.5em;
   color: #333;
-  margin-bottom: 10px;
 }
 
 .powerpoint-author {
   font-size: 1.2em;
-  margin-bottom: 30px;
   font-weight: normal;
 }
 
 .powerpoint-iframe-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 1px solid #ddd;
   border-radius: 4px;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .powerpoint-iframe-container iframe {
@@ -42,6 +40,3 @@
 iframe {
   border: none;
 }
-
-
-
