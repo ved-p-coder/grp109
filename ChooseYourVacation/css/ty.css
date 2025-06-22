@@ -18,10 +18,10 @@ p {
 }
 
 /* Styling of the text in the output */
-#output p {
+#output li {
   font-size: 1.1rem;
   line-height: 1.6;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 #output strong {
