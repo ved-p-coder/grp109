@@ -6,4 +6,4 @@ function scrollNames() {
     index = (index + 1) % names.length;
   }
 
-  setInterval(scrollNames, 1500); // Change every 1.5 seconds
+  setInterval(scrollNames, 1000); // Change every 1 second
