@@ -28,5 +28,5 @@ document.addEventListener("DOMContentLoaded", function () {
   display += "<p><strong>Country:</strong> " + data.country + "</p>";
   display += "<p><strong>Zip Code:</strong> " + data.zipCode + "</p>";
   
-  output.innerdisplay = display;
+  output.innerHTML = display;
 });
