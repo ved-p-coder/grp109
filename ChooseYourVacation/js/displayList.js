@@ -1,7 +1,7 @@
-document.addEventListner("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 
   // Retrieve the form data from localStorage and parse it back into an object
-  var dataString = JSON.parse(localStorage.getItem("formData"));
+  var dataString = localStorage.getItem("formData");
 
   var output = document.getElementById("output");
 
