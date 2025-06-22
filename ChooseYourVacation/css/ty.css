@@ -1,1 +1,25 @@
+h2 {
+  text-align: center;
+}
 
+/* Styling of the form data output area */
+#output {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #f0f4ff;
+  border: 1px solid #0041ab;
+  border-radius: 8px;
+  padding: 20px 30px;
+  color: #0041ab;
+}
+
+/* Styling of the text in the output */
+#output p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 1rem;
+}
+
+#output strong {
+  font-weight: 600;
+}
