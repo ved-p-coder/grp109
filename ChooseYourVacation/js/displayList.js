@@ -15,18 +15,19 @@ document.addEventListener("DOMContentLoaded", function () {
   var data = JSON.parse(dataString);
 
   // Displays all the form information
-  var display = "";
-  display += "<p><strong>First Name:</strong> " + data.firstName + "</p>";
-  display += "<p><strong>Last Name:</strong> " + data.lastName + "</p>";
-  display += "<p><strong>Email:</strong> " + data.email + "</p>";
-  display += "<p><strong>Phone:</strong> " + data.phone + "</p>";
-  display += "<p><strong>Username:</strong> " + data.username + "</p>";
-  display += "<p><strong>Password:</strong> " + data.password + "</p>";
-  display += "<p><strong>Address:</strong> " + data.address + "</p>";
-  display += "<p><strong>City:</strong> " + data.city + "</p>";
-  display += "<p><strong>State:</strong> " + data.state + "</p>";
-  display += "<p><strong>Country:</strong> " + data.country + "</p>";
-  display += "<p><strong>Zip Code:</strong> " + data.zipCode + "</p>";
+  var display = "<ul>";
+  display += "<li><strong>First Name:</strong> " + data.firstName + "</li>";
+  display += "<li><strong>Last Name:</strong> " + data.lastName + "</li>";
+  display += "<li><strong>Email:</strong> " + data.email + "</li>";
+  display += "<li><strong>Phone:</strong> " + data.phone + "</li>";
+  display += "<li><strong>Username:</strong> " + data.username + "</li>";
+  display += "<li><strong>Password:</strong> " + data.password + "</li>";
+  display += "<li><strong>Address:</strong> " + data.address + "</li>";
+  display += "<li><strong>City:</strong> " + data.city + "</li>";
+  display += "<li><strong>State:</strong> " + data.state + "</li>";
+  display += "<li><strong>Country:</strong> " + data.country + "</li>";
+  display += "<li><strong>Zip Code:</strong> " + data.zipCode + "</li>";
+  display += "</ul>";
   
   output.innerHTML = display;
 });
