@@ -1,5 +1,24 @@
 function isValid(event) {
     if (firstName() && lastName() && email() && phone() && username() && password() && address() && city() && state() && country() && zipCode()) {
+
+        // Saves all form data to localStorage
+        var formData = {
+            firstName: document.getElementById("FirstName").value,
+            lastName: document.getElementById("LastName").value,
+            email: document.getElementById("Email").value,
+            phone: document.getElementById("Phone").value,
+            username: document.getElementById("Username").value,
+            password: document.getElementById("Password").value,
+            address: document.getElementById("Address").value,
+            city: document.getElementById("City").value,
+            state: document.getElementById("State").value,
+            country: document.getElementById("Country").value,
+            zipCode: document.getElementById("ZipCode").value
+        };
+
+        // Converts the object to a string and stores it in the local storage
+        localStorage.setItem("formData", JSON.stringify(formData));
+        
         return true;
     }
  else {
