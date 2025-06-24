@@ -6,12 +6,16 @@
   text-align: center;
 }
 
+/* Made every underlined heading 3 be blue and a little bit larger 
+Created by: Ben */
 h3 u {
   color: #00318a;
   margin-top: 1.5rem;
   font-size: 1.2rem;
 }
 
+/* Added a box to separate each section 
+Created by: Ben */
 .section-box {
   background-color: #f0f4ff;
   border: 2px solid #0041ab;
